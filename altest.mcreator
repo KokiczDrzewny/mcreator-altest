@@ -1348,14 +1348,6 @@
       "registry_name": "paradise_8"
     },
     {
-      "name": "Version",
-      "type": "overlay",
-      "sortid": 444,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "version"
-    },
-    {
       "name": "Diamondnugget",
       "type": "item",
       "sortid": 273,
@@ -4946,14 +4938,6 @@
       "registry_name": "battery"
     },
     {
-      "name": "UnactiveBatteru",
-      "type": "block",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unactive_batteru"
-    },
-    {
       "name": "BatteryItem",
       "type": "item",
       "sortid": 207,
@@ -7947,6 +7931,102 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_auto_hammer_recipe"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 872,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 873,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore"
+    },
+    {
+      "name": "CopperBlock",
+      "type": "block",
+      "sortid": 874,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block"
+    },
+    {
+      "name": "CopperOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 875,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_block_recipe"
+    },
+    {
+      "name": "CopperBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 876,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block_ore_recipe"
+    },
+    {
+      "name": "CopperOreSmelting",
+      "type": "recipe",
+      "sortid": 877,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ore_smelting"
+    },
+    {
+      "name": "CopperDust",
+      "type": "item",
+      "sortid": 878,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust"
+    },
+    {
+      "name": "CopperDustSmelt",
+      "type": "recipe",
+      "sortid": 879,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust_smelt"
+    },
+    {
+      "name": "CopperGear",
+      "type": "item",
+      "sortid": 880,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_gear"
+    },
+    {
+      "name": "CopperGearRecipe",
+      "type": "recipe",
+      "sortid": 881,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_gear_recipe"
+    },
+    {
+      "name": "CopperWire",
+      "type": "item",
+      "sortid": 882,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire"
+    },
+    {
+      "name": "CopperWireRecipe",
+      "type": "recipe",
+      "sortid": 883,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire_recipe"
     }
   ],
   "variable_elements": [],
@@ -8066,6 +8146,7 @@
       "block.altest.pickaxe_crate": "Apple Crate",
       "item.altest.silver_sword": "Srebrny Miecz",
       "item.altest.diamondnugget": "Kawa�ek Diamentu",
+      "item.altest.copper_dust": "Copper Dust",
       "block.altest.lime_flower": "Lime Flower",
       "item.altest.obsidian_sword": "Obsidian Sword",
       "advancements.cherrybiome.title": "Tyle r�u i lawendy \u003c3",
@@ -8115,6 +8196,7 @@
       "item.altest.topaz_pickaxe": "Topazowy Kilof",
       "item.altest.compressediron_ingot": "Compressed Iron Ingot",
       "block.altest.compressed_dust": "Dust",
+      "block.altest.copper_ore": "Copper Ore",
       "block.altest.purple_wool": "We�na",
       "enchantment.altest.heart_steal": "Heart Steal",
       "item.altest.emerald_pack_armor_leggings": "Szmaragdowe Nogawice",
@@ -8181,7 +8263,6 @@
       "block.altest.galaxy_planks": "Galaxy Planks",
       "block.altest.sapphire_ore": "Ruda Szafiru",
       "advancements.ultra_battery_adv.descr": "Craft an Ultra Power Source",
-      "block.altest.unactive_batteru": "Solar Panel",
       "item.altest.emerald_pack_axe": "Szmaragdowa Siekiera",
       "item.altest.amethyst_hoe": "Ametystowa Motyla",
       "item.altest.jade_shovel": "Jadeitowa �opata",
@@ -8223,6 +8304,7 @@
       "block.altest.pink_wool": "We�na",
       "item.altest.enderite_pickaxe": "Enderite Pickaxe",
       "block.altest.maple_wood": "Drewno Klonowe",
+      "item.altest.copper_gear": "Copper Gear",
       "block.altest.green_light_block": "Lime Light Block",
       "item.altest.topaz": "Topaz",
       "block.altest.galaxy_pressure_plate": "Galaxy Pressure Plate",
@@ -8257,6 +8339,7 @@
       "item.minecraft.splash_potion.effect.miners_potion": "Splash Potion of Miners",
       "block.altest.light_block": "Light Block",
       "entity.altest.bug": "Bug",
+      "item.altest.copper_ingot": "Copper",
       "block.altest.cheese_machine": "Cheese Machine",
       "item.altest.creditsdisc": "P�yta Muzyczna",
       "biome.altest.cherry": "Las Wi�niowy",
@@ -8338,6 +8421,7 @@
       "advancements.energy_meter_adv.title": "Numbers",
       "block.altest.planks_red": "Cherry Planks",
       "item.altest.amethyst_shovel": "Ametystowa �opata",
+      "block.altest.copper_block": "Block of Copper",
       "item.altest.electric_gear": "Electric Gear",
       "item.altest.silver_shovel": "Srebrna �opata",
       "block.altest.galaxy_log": "Galaxy Log",
@@ -8350,6 +8434,7 @@
       "item.altest.shardgloos": "Od�ameczki do Rameczki",
       "item.altest.water_in_bowl": "Bowl of Water",
       "item.altest.yellow_crystal": "Yellow Crystal",
+      "item.altest.copper_wire": "Copper Wire",
       "block.altest.planks_white": "Colored Light Gray Planks",
       "block.altest.gray_light_block": "Light Gray Light Block",
       "advancements.goldened_iron_adv.title": "Gold or Iron?",
@@ -8590,6 +8675,7 @@
       "block.altest.pickaxe_crate": "Pickaxe Crate",
       "item.altest.silver_sword": "Silver Sword",
       "item.altest.diamondnugget": "Diamond Nugget",
+      "item.altest.copper_dust": "Copper Dust",
       "block.altest.lime_flower": "Lime Flower",
       "item.altest.obsidian_sword": "Obsidian Sword",
       "advancements.cherrybiome.title": "Such Pink and Lavender \u003c3",
@@ -8639,6 +8725,7 @@
       "item.altest.topaz_pickaxe": "Topaz Pickaxe",
       "item.altest.compressediron_ingot": "Compressed Iron Ingot",
       "block.altest.compressed_dust": "Compressed Dust",
+      "block.altest.copper_ore": "Copper Ore",
       "block.altest.purple_wool": "Violet Wool",
       "enchantment.altest.heart_steal": "Life Steal",
       "item.altest.emerald_pack_armor_leggings": "Emerald Leggings",
@@ -8688,7 +8775,7 @@
       "subtitles.microphone": "",
       "block.altest.bathroom_stairs": "Bathroom Tiles Stairs",
       "block.altest.slate_slab": "Slate Slab",
-      "item.altest.electic_ingot": "Electic",
+      "item.altest.electic_ingot": "Electric Ingot",
       "item.altest.noodles": "Noodles",
       "item.altest.gravel_powder": "Gravel Powder",
       "block.altest.purple_light_block": "Purple Light Block",
@@ -8705,7 +8792,6 @@
       "block.altest.galaxy_planks": "Galaxy Planks",
       "block.altest.sapphire_ore": "Sapphire Ore",
       "advancements.ultra_battery_adv.descr": "Craft an Ultra Battery",
-      "block.altest.unactive_batteru": "Unactive Battery",
       "item.altest.emerald_pack_axe": "Emerald Axe",
       "item.altest.amethyst_hoe": "Amethyst Hoe",
       "item.altest.jade_shovel": "Jade Shovel",
@@ -8728,7 +8814,7 @@
       "biome.altest.dark_biome": "Dark Biome",
       "block.altest.planks_l_gray": "Colored Light Gray Planks",
       "entity.altest.friendly_creeper": "Friendly Creeper",
-      "block.altest.electic_ore": "Electic Ore",
+      "block.altest.electic_ore": "Electric Ore",
       "block.altest.planks_black": "Colored Black Planks",
       "block.altest.maple_log": "Maple Log",
       "item.altest.coin_100": "Coin 100",
@@ -8747,6 +8833,7 @@
       "block.altest.pink_wool": "Magenta Wool",
       "item.altest.enderite_pickaxe": "Enderite Pickaxe",
       "block.altest.maple_wood": "Maple Wood",
+      "item.altest.copper_gear": "Copper Gear",
       "block.altest.green_light_block": "Green Light Block",
       "item.altest.topaz": "Topaz",
       "block.altest.galaxy_pressure_plate": "Galaxy Pressure Plate",
@@ -8781,6 +8868,7 @@
       "item.minecraft.splash_potion.effect.miners_potion": "Splash Potion of Miners",
       "block.altest.light_block": "Light Block",
       "entity.altest.bug": "Bug",
+      "item.altest.copper_ingot": "Copper",
       "block.altest.cheese_machine": "Cheese Machine",
       "item.altest.creditsdisc": "Music Disc",
       "biome.altest.cherry": "Cherry Forest",
@@ -8862,6 +8950,7 @@
       "advancements.energy_meter_adv.title": "Numbers",
       "block.altest.planks_red": "Colored Red Planks",
       "item.altest.amethyst_shovel": "Amethyst Shovel",
+      "block.altest.copper_block": "Block of Copper",
       "item.altest.electric_gear": "Electric Gear",
       "item.altest.silver_shovel": "Silver Shovel",
       "block.altest.galaxy_log": "Galaxy Log",
@@ -8874,6 +8963,7 @@
       "item.altest.shardgloos": "Shocking Shards",
       "item.altest.water_in_bowl": "Bowl of Water",
       "item.altest.yellow_crystal": "Yellow Crystal",
+      "item.altest.copper_wire": "Copper Wire",
       "block.altest.planks_white": "Colored White Planks",
       "block.altest.gray_light_block": "Gray Light Block",
       "advancements.goldened_iron_adv.title": "Gold or Iron?",
@@ -9007,7 +9097,7 @@
       "item.altest.ingot_2": "Bright Ingot",
       "item.altest.ingot_3": "Nature Ingot",
       "block.altest.purple_flower": "Purple Flower",
-      "block.altest.electic_block": "Block of Electic",
+      "block.altest.electic_block": "Block of Electric",
       "item.altest.ingot_5": "Dark Ingot",
       "block.altest.cherry_planks": "Cherry Planks",
       "item.altest.menos": "Menos",
@@ -9071,7 +9161,7 @@
   "workspaceSettings": {
     "modid": "altest",
     "modName": "AlTest",
-    "version": "Beta 0.52",
+    "version": "Beta 0.53",
     "description": "Mod that adds multiple different categories of items and blocks",
     "author": "KokiczDrzewny",
     "websiteURL": "https://mcreator.net",

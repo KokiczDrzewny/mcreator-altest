@@ -8,6 +8,7 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -15,32 +16,32 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.altest.itemgroup.EnergyItemGroup;
 import net.mcreator.altest.AltestModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @AltestModElements.ModElement.Tag
-public class UnactiveBatteruBlock extends AltestModElements.ModElement {
-	@ObjectHolder("altest:unactive_batteru")
+public class CopperBlockBlock extends AltestModElements.ModElement {
+	@ObjectHolder("altest:copper_block")
 	public static final Block block = null;
 
-	public UnactiveBatteruBlock(AltestModElements instance) {
-		super(instance, 204);
+	public CopperBlockBlock(AltestModElements instance) {
+		super(instance, 874);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(EnergyItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("unactive_batteru");
+			setRegistryName("copper_block");
 		}
 
 		@Override

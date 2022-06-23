@@ -1,5 +1,5 @@
 {
-  "parent": "altest:block/unactive_batteru",
+  "parent": "altest:block/copper_block",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "electric_ingot_animation",
+    "texture": "copper_ingot",
     "customModelName": "Normal",
-    "name": "Electric Ingot",
+    "name": "Copper",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

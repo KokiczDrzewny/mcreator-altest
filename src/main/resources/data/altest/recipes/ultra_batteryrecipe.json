@@ -7,7 +7,7 @@
   ],
   "key": {
     "0": {
-      "item": "altest:energy_crystal"
+      "item": "altest:copper_wire"
     },
     "1": {
       "item": "altest:goldened_iron_ingot"
@@ -31,7 +31,7 @@
       "item": "altest:goldened_iron_ingot"
     },
     "8": {
-      "item": "altest:energy_crystal"
+      "item": "altest:copper_gear"
     }
   },
   "result": {

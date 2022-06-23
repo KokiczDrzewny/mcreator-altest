@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:copper_block"
+    }
+  ],
+  "result": {
+    "item": "altest:copper_ingot",
+    "count": 9
+  }
+}

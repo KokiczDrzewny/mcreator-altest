@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CopperWire"
+        "value": ""
       },
       {
-        "value": "CUSTOM:GoldenedIronIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:EnergyCrystal"
+        "value": ""
       },
       {
-        "value": "CUSTOM:GoldenedIronIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:Battery"
+        "value": "Items.GOLD_NUGGET"
       },
       {
-        "value": "CUSTOM:GoldenedIronIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:EnergyCrystal"
+        "value": ""
       },
       {
-        "value": "CUSTOM:GoldenedIronIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:CopperGear"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:UltraPowerSource"
+      "value": "CUSTOM:CopperGear"
     },
-    "name": "ultra_batteryrecipe",
+    "name": "copper_gear_recipe",
     "namespace": "mod"
   }
 }

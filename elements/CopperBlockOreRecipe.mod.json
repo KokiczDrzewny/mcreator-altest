@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "Items.REDSTONE"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CopperGear"
+        "value": ""
       },
       {
-        "value": "CUSTOM:DiamondHammer"
-      },
-      {
-        "value": "CUSTOM:ElectricGear"
+        "value": "CUSTOM:CopperBlock"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:UraniumIngot"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DiamondAutoHammer"
+      "value": "CUSTOM:CopperIngot"
     },
-    "name": "diamond_auto_hammer_recipe",
+    "name": "copper_block_ore_recipe",
     "namespace": "mod"
   }
 }

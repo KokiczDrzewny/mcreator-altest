@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:copper_ingot"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "altest:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "altest:copper_wire",
+    "count": 3
+  }
+}

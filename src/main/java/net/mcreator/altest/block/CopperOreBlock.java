@@ -36,7 +36,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.altest.item.ElecticIngotItem;
+import net.mcreator.altest.item.CopperIngotItem;
 import net.mcreator.altest.AltestModElements;
 
 import java.util.Random;
@@ -44,12 +44,12 @@ import java.util.List;
 import java.util.Collections;
 
 @AltestModElements.ModElement.Tag
-public class ElecticOreBlock extends AltestModElements.ModElement {
-	@ObjectHolder("altest:electic_ore")
+public class CopperOreBlock extends AltestModElements.ModElement {
+	@ObjectHolder("altest:copper_ore")
 	public static final Block block = null;
 
-	public ElecticOreBlock(AltestModElements instance) {
-		super(instance, 858);
+	public CopperOreBlock(AltestModElements instance) {
+		super(instance, 873);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -63,9 +63,9 @@ public class ElecticOreBlock extends AltestModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.5f, 5f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("electic_ore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.25f, 4.182558210365094f).setLightLevel(s -> 0)
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			setRegistryName("copper_ore");
 		}
 
 		@Override
@@ -78,7 +78,7 @@ public class ElecticOreBlock extends AltestModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(ElecticIngotItem.block));
+			return Collections.singletonList(new ItemStack(CopperIngotItem.block));
 		}
 	}
 
@@ -105,7 +105,7 @@ public class ElecticOreBlock extends AltestModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("altest:electic_ore_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("altest:copper_ore_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -118,10 +118,10 @@ public class ElecticOreBlock extends AltestModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(63)
-					.square().func_242731_b(5);
-			event.getRegistry().register(feature.setRegistryName("electic_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("altest:electic_ore"), configuredFeature);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(77)
+					.square().func_242731_b(13);
+			event.getRegistry().register(feature.setRegistryName("copper_ore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("altest:copper_ore"), configuredFeature);
 		}
 	}
 

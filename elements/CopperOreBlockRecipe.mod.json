@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CopperWire"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:GoldenedIronIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:EnergyCrystal"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:GoldenedIronIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:Battery"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:GoldenedIronIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:EnergyCrystal"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:GoldenedIronIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:CopperGear"
+        "value": "CUSTOM:CopperIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:UltraPowerSource"
+      "value": "CUSTOM:CopperBlock"
     },
-    "name": "ultra_batteryrecipe",
+    "name": "copper_ore_block_recipe",
     "namespace": "mod"
   }
 }

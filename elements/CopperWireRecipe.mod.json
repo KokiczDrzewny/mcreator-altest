@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 3,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "Items.REDSTONE"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CopperGear"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "CUSTOM:DiamondHammer"
+        "value": "Items.STRING"
       },
       {
-        "value": "CUSTOM:ElectricGear"
+        "value": "CUSTOM:CopperIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:UraniumIngot"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DiamondAutoHammer"
+      "value": "CUSTOM:CopperWire"
     },
-    "name": "diamond_auto_hammer_recipe",
+    "name": "copper_wire_recipe",
     "namespace": "mod"
   }
 }
