@@ -16,8 +16,11 @@ import net.mcreator.altest.item.UraniumPowderItem;
 import net.mcreator.altest.item.UraniumIngotItem;
 import net.mcreator.altest.item.ShardgloosItem;
 import net.mcreator.altest.item.ModulariumIngotItem;
+import net.mcreator.altest.item.ElectricGearItem;
+import net.mcreator.altest.item.ElecticIngotItem;
 import net.mcreator.altest.item.ColdItem;
 import net.mcreator.altest.item.BatteryItemItem;
+import net.mcreator.altest.block.UraniumBlockBlock;
 import net.mcreator.altest.block.UltraPowerSourceBlock;
 import net.mcreator.altest.block.MachineCaseBlock;
 import net.mcreator.altest.block.BatteryBlock;
@@ -225,6 +228,60 @@ public class FurnaceTickProcedure {
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
+		} else if ((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				TileEntity _ent = world.getTileEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).copy());
+					});
+				}
+				return _retval.get();
+			}
+		}.getItemStack(new BlockPos(x, y, z), (int) (0))).getItem() == ElectricGearItem.block && ((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				TileEntity _ent = world.getTileEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).copy());
+					});
+				}
+				return _retval.get();
+			}
+		}.getItemStack(new BlockPos(x, y, z), (int) (2))).getItem() == ElecticIngotItem.block && new Object() {
+			public int getAmount(IWorld world, BlockPos pos, int sltid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				TileEntity _ent = world.getTileEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).getCount());
+					});
+				}
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos(x, y, z), (int) (2)) <= 61 || new Object() {
+			public int getAmount(IWorld world, BlockPos pos, int sltid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				TileEntity _ent = world.getTileEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).getCount());
+					});
+				}
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos(x, y, z), (int) (2)) == 0)) {
+			if (!world.isRemote()) {
+				BlockPos _bp = new BlockPos(x, y, z);
+				TileEntity _tileEntity = world.getTileEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_tileEntity != null)
+					_tileEntity.getTileData().putDouble("recipe", 3);
+				if (world instanceof World)
+					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+			}
 		} else {
 			if (!world.isRemote()) {
 				BlockPos _bp = new BlockPos(x, y, z);
@@ -401,6 +458,52 @@ public class FurnaceTickProcedure {
 									return _retval.get();
 								}
 							}.getAmount(world, new BlockPos(x, y, z), (int) (2)) + 1));
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								if (capability instanceof IItemHandlerModifiable) {
+									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
+								}
+							});
+						}
+					}
+				} else if (new Object() {
+					public double getValue(IWorld world, BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(world, new BlockPos(x, y, z), "recipe") == 3) {
+					{
+						TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
+						if (_ent != null) {
+							final int _sltid = (int) (0);
+							final int _amount = (int) 1;
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								if (capability instanceof IItemHandlerModifiable) {
+									ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+									_stk.shrink(_amount);
+									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+								}
+							});
+						}
+					}
+					{
+						TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
+						if (_ent != null) {
+							final int _sltid = (int) (2);
+							final ItemStack _setstack = new ItemStack(ElecticIngotItem.block);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(IWorld world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									TileEntity _ent = world.getTileEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos(x, y, z), (int) (2)) + 3));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -667,6 +770,94 @@ public class FurnaceTickProcedure {
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
 								_tileEntity.getTileData().putDouble("maxFuel", 40);
+							if (world instanceof World)
+								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+						}
+					} else if ((new Object() {
+						public ItemStack getItemStack(BlockPos pos, int sltid) {
+							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+							TileEntity _ent = world.getTileEntity(pos);
+							if (_ent != null) {
+								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									_retval.set(capability.getStackInSlot(sltid).copy());
+								});
+							}
+							return _retval.get();
+						}
+					}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == UraniumBlockBlock.block.asItem()) {
+						{
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
+							if (_ent != null) {
+								final int _sltid = (int) (1);
+								final int _amount = (int) 1;
+								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									if (capability instanceof IItemHandlerModifiable) {
+										ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+										_stk.shrink(_amount);
+										((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+									}
+								});
+							}
+						}
+						if (!world.isRemote()) {
+							BlockPos _bp = new BlockPos(x, y, z);
+							TileEntity _tileEntity = world.getTileEntity(_bp);
+							BlockState _bs = world.getBlockState(_bp);
+							if (_tileEntity != null)
+								_tileEntity.getTileData().putDouble("fuel", 240);
+							if (world instanceof World)
+								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+						}
+						if (!world.isRemote()) {
+							BlockPos _bp = new BlockPos(x, y, z);
+							TileEntity _tileEntity = world.getTileEntity(_bp);
+							BlockState _bs = world.getBlockState(_bp);
+							if (_tileEntity != null)
+								_tileEntity.getTileData().putDouble("maxFuel", 240);
+							if (world instanceof World)
+								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+						}
+					} else if ((new Object() {
+						public ItemStack getItemStack(BlockPos pos, int sltid) {
+							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+							TileEntity _ent = world.getTileEntity(pos);
+							if (_ent != null) {
+								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									_retval.set(capability.getStackInSlot(sltid).copy());
+								});
+							}
+							return _retval.get();
+						}
+					}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == ElecticIngotItem.block) {
+						{
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
+							if (_ent != null) {
+								final int _sltid = (int) (1);
+								final int _amount = (int) 1;
+								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									if (capability instanceof IItemHandlerModifiable) {
+										ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+										_stk.shrink(_amount);
+										((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+									}
+								});
+							}
+						}
+						if (!world.isRemote()) {
+							BlockPos _bp = new BlockPos(x, y, z);
+							TileEntity _tileEntity = world.getTileEntity(_bp);
+							BlockState _bs = world.getBlockState(_bp);
+							if (_tileEntity != null)
+								_tileEntity.getTileData().putDouble("fuel", 90);
+							if (world instanceof World)
+								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+						}
+						if (!world.isRemote()) {
+							BlockPos _bp = new BlockPos(x, y, z);
+							TileEntity _tileEntity = world.getTileEntity(_bp);
+							BlockState _bs = world.getBlockState(_bp);
+							if (_tileEntity != null)
+								_tileEntity.getTileData().putDouble("maxFuel", 90);
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}

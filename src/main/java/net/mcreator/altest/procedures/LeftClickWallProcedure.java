@@ -43,7 +43,7 @@ public class LeftClickWallProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		double random = 0;
-		random = (MathHelper.nextDouble(new Random(), 1, 10));
+		random = (MathHelper.nextDouble(new Random(), 1, 11));
 		if (random < 6) {
 			if (world instanceof ServerWorld) {
 				((World) world).getServer().getCommandManager().handleCommand(

@@ -7903,6 +7903,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "DiamondAutoHammer",
+      "type": "tool",
+      "sortid": 869,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_auto_hammer"
+    },
+    {
+      "name": "AutoHammerDestroyedBlock",
+      "type": "procedure",
+      "sortid": 870,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_hammer_destroyed_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondAutoHammerRecipe",
+      "type": "recipe",
+      "sortid": 871,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_auto_hammer_recipe"
     }
   ],
   "variable_elements": [],
@@ -8165,6 +8209,7 @@
       "block.altest.maple_log": "Pie� Klonowy",
       "item.altest.coin_100": "Coin 100",
       "item.altest.ultimatepick": "Kilof Niesko�czono�ci",
+      "item.altest.diamond_auto_hammer": "Diamond Hammer",
       "item.altest.game.desc": "C148 - Gra",
       "biome.altest.desert_c": "Desert C",
       "item.altest.cold": "Zimowy Kryszta�",
@@ -8688,6 +8733,7 @@
       "block.altest.maple_log": "Maple Log",
       "item.altest.coin_100": "Coin 100",
       "item.altest.ultimatepick": "Ultimate Pickaxe",
+      "item.altest.diamond_auto_hammer": "Diamond Auto Hammer",
       "item.altest.game.desc": "C148 - Game",
       "biome.altest.desert_c": "Desert C",
       "item.altest.cold": "Cold",
