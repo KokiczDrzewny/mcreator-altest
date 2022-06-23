@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ModulariumIngot"
+        "value": "CUSTOM:XP"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:ModulariumIngot"
+        "value": ""
       },
       {
-        "value": "Blocks.REDSTONE_BLOCK"
-      },
-      {
-        "value": "CUSTOM:ModulariumIngot"
+        "value": "Items.ARROW"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:ElectrocopperIngot"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElectricGear"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MachineCase"
+      "value": "CUSTOM:Infuser"
     },
-    "name": "machine_case_recipe",
+    "name": "infuser_recipe",
     "namespace": "mod"
   }
 }

@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 2,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:ModulariumIngot"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:ModulariumIngot"
+        "value": "CUSTOM:CopperIngot"
       },
       {
-        "value": "Blocks.REDSTONE_BLOCK"
+        "value": "CUSTOM:Infuser"
       },
       {
-        "value": "CUSTOM:ModulariumIngot"
+        "value": "CUSTOM:ElecticIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:ElectrocopperIngot"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MachineCase"
+      "value": "CUSTOM:ElectrocopperIngot"
     },
-    "name": "machine_case_recipe",
+    "name": "electrocopper_ingot_recipe",
     "namespace": "mod"
   }
 }

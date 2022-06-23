@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "copper_ingot_new",
+    "texture": "electrocopper_ingot",
     "customModelName": "Normal",
-    "name": "Copper",
+    "name": "Electrocopper Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

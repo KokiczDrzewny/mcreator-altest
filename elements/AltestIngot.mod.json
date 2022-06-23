@@ -1,0 +1,56 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "CUSTOM:Ingot2"
+      },
+      {
+        "value": "CUSTOM:Ingot3"
+      },
+      {
+        "value": "CUSTOM:Ingot5"
+      },
+      {
+        "value": "CUSTOM:EnderiteIngot"
+      },
+      {
+        "value": "CUSTOM:PLankIngoit"
+      },
+      {
+        "value": "CUSTOM:CompressedironIngot"
+      },
+      {
+        "value": "CUSTOM:GoldenedIronIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:ModulariumIngot"
+      },
+      {
+        "value": "CUSTOM:UraniumIngot"
+      },
+      {
+        "value": "CUSTOM:ElecticIngot"
+      },
+      {
+        "value": "CUSTOM:CopperIngot"
+      },
+      {
+        "value": "CUSTOM:ElectrocopperIngot"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "altest_ingot",
+    "namespace": "forge"
+  }
+}

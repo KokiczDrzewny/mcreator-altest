@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:xp"
+    },
+    "1": {
+      "item": "minecraft:arrow"
+    },
+    "2": {
+      "item": "altest:electric_gear"
+    }
+  },
+  "result": {
+    "item": "altest:infuser",
+    "count": 1
+  }
+}

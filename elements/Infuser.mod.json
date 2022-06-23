@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "copper_ingot_new",
+    "texture": "infuser",
     "customModelName": "Normal",
-    "name": "Copper",
+    "name": "Infuser",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

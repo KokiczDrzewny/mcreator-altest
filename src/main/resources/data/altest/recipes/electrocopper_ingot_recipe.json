@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:copper_ingot"
+    },
+    {
+      "item": "altest:infuser"
+    },
+    {
+      "item": "altest:electic_ingot"
+    }
+  ],
+  "result": {
+    "item": "altest:electrocopper_ingot",
+    "count": 2
+  }
+}
