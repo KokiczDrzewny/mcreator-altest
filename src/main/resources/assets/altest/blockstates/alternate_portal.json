@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "altest:block/alternate_portal_ew"
+    },
+    "axis=x": {
+      "model": "altest:block/alternate_portal_ns"
+    }
+  }
+}

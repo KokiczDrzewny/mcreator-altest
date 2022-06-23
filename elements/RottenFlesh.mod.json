@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.ROTTEN_FLESH"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.COOKED_BEEF"
+    },
+    "name": "rotten_flesh",
+    "namespace": "mod"
+  }
+}

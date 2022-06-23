@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_leaves"
+    },
+    {
+      "item": "minecraft:grass_block"
+    }
+  ],
+  "result": {
+    "item": "altest:plant",
+    "count": 2
+  }
+}

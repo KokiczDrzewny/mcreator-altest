@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:jade"
+    },
+    "2": {
+      "item": "altest:jade"
+    },
+    "3": {
+      "item": "altest:jade"
+    },
+    "5": {
+      "item": "altest:jade"
+    }
+  },
+  "result": {
+    "item": "altest:jade_armor_boots",
+    "count": 1
+  }
+}

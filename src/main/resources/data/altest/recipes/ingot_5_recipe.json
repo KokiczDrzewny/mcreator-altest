@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "1": {
+      "item": "minecraft:blue_dye"
+    },
+    "2": {
+      "item": "minecraft:purple_dye"
+    },
+    "3": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "4": {
+      "item": "altest:silver_ingot"
+    },
+    "5": {
+      "item": "minecraft:purple_dye"
+    },
+    "6": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "7": {
+      "item": "minecraft:blue_dye"
+    },
+    "8": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "altest:ingot_5",
+    "count": 1
+  }
+}

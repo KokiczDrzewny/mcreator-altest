@@ -1,0 +1,115 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Autumn Paradise Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.MOSSY_COBBLESTONE"
+    },
+    "airColor": {
+      "value": -2062764,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -2454475,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16763166,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.19999999999999998,
+    "temperature": 0.7,
+    "baseHeight": 0.7999999999999999,
+    "heightVariation": 1.1,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 6,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 3,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 2,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 1,
+    "gravelPatchesPerChunk": 4,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "Blocks.LOG#2"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Autumnleaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "ExtraEmeraldOre"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityLlama"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 1,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

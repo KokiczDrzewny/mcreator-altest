@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:topaz"
+    },
+    "2": {
+      "item": "altest:topaz"
+    },
+    "3": {
+      "item": "altest:topaz"
+    },
+    "4": {
+      "item": "altest:topaz"
+    },
+    "5": {
+      "item": "altest:topaz"
+    },
+    "6": {
+      "item": "altest:topaz"
+    },
+    "7": {
+      "item": "altest:topaz"
+    },
+    "8": {
+      "item": "altest:topaz"
+    }
+  },
+  "result": {
+    "item": "altest:topaz_armor_chestplate",
+    "count": 1
+  }
+}

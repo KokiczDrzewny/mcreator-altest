@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "dynamic",
+    "name": "Music Disc",
+    "description": "Smash Hit - dynamic",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:dynamic"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

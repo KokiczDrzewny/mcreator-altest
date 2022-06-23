@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:amethyst"
+    },
+    {
+      "item": "altest:jade"
+    },
+    {
+      "item": "altest:battery_item"
+    },
+    {
+      "item": "altest:sapphire"
+    },
+    {
+      "item": "altest:ruby"
+    },
+    {
+      "item": "altest:topaz"
+    }
+  ],
+  "result": {
+    "item": "altest:energy_crystal",
+    "count": 4
+  }
+}

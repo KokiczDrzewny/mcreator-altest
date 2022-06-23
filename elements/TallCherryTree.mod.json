@@ -1,0 +1,28 @@
+{
+  "_fv": 28,
+  "_type": "structure",
+  "definition": {
+    "structure": "tallcherrytree",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 2000,
+    "minCountPerChunk": 2,
+    "maxCountPerChunk": 5,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Alternate",
+      "CUSTOM:CustomBiomes"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Cherry"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

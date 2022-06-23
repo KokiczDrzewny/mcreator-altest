@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/loosebedrock",
+    "up": "altest:blocks/loosebedrock",
+    "north": "altest:blocks/loosebedrock",
+    "east": "altest:blocks/loosebedrock",
+    "south": "altest:blocks/loosebedrock",
+    "west": "altest:blocks/loosebedrock",
+    "particle": "altest:blocks/loosebedrock"
+  }
+}

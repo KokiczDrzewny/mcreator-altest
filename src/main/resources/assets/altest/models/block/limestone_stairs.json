@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "altest:blocks/limestone",
+    "top": "altest:blocks/limestone",
+    "side": "altest:blocks/limestone"
+  }
+}

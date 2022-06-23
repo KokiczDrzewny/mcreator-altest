@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "altest:blocks/maple_log_side",
+    "particle": "altest:blocks/maple_log_side"
+  }
+}

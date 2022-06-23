@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "altest:cold"
+    },
+    "3": {
+      "item": "altest:cold"
+    },
+    "4": {
+      "item": "altest:coin_base"
+    },
+    "5": {
+      "item": "altest:cold"
+    },
+    "7": {
+      "item": "altest:cold"
+    }
+  },
+  "result": {
+    "item": "altest:coin_100",
+    "count": 1
+  }
+}

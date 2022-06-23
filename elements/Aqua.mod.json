@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "aqua",
+    "name": "Music Disc",
+    "description": "Smash Hit - aqua",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:aqua"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

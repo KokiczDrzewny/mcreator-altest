@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:cherry_planks"
+    },
+    "3": {
+      "item": "altest:cherry_planks"
+    },
+    "4": {
+      "item": "altest:cherry_planks"
+    },
+    "6": {
+      "item": "altest:cherry_planks"
+    },
+    "7": {
+      "item": "altest:cherry_planks"
+    },
+    "8": {
+      "item": "altest:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "altest:cherry_stairs",
+    "count": 4
+  }
+}

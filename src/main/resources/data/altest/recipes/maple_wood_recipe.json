@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:maple_log"
+    },
+    "1": {
+      "item": "altest:maple_log"
+    },
+    "2": {
+      "item": "altest:maple_log"
+    },
+    "3": {
+      "item": "altest:maple_log"
+    }
+  },
+  "result": {
+    "item": "altest:maple_wood",
+    "count": 3
+  }
+}

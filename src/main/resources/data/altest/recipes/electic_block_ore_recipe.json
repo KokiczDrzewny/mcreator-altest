@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:electic_block"
+    }
+  ],
+  "result": {
+    "item": "altest:electic_ingot",
+    "count": 9
+  }
+}

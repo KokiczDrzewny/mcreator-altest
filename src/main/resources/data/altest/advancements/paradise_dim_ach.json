@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:clay"
+    },
+    "title": {
+      "translate": "advancements.paradise_dim_ach.title"
+    },
+    "description": {
+      "translate": "advancements.paradise_dim_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "paradise_dim_ach": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "altest:paradisedim"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "loot": [
+      "altest:blocks/rare"
+    ]
+  },
+  "parent": "altest:ultimate_pick_adv"
+}

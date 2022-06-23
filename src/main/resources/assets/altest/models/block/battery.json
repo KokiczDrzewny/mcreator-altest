@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/batteryout",
+    "up": "altest:blocks/batteryin",
+    "north": "altest:blocks/battery",
+    "east": "altest:blocks/battery",
+    "south": "altest:blocks/battery",
+    "west": "altest:blocks/battery",
+    "particle": "altest:blocks/batteryout"
+  }
+}

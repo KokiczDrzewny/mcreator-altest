@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "musicdisccredss",
+    "name": "Music Disc",
+    "description": "C148 - beggining2",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "music.menu"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

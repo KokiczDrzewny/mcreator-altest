@@ -1,0 +1,93 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:DesertC"
+      },
+      {
+        "value": "CUSTOM:FlowerC"
+      },
+      {
+        "value": "CUSTOM:JungleC"
+      },
+      {
+        "value": "CUSTOM:MesaC"
+      },
+      {
+        "value": "CUSTOM:MountainsC"
+      },
+      {
+        "value": "CUSTOM:MushroomC"
+      },
+      {
+        "value": "CUSTOM:PlainsBirchC"
+      },
+      {
+        "value": "CUSTOM:PlainsC"
+      },
+      {
+        "value": "CUSTOM:SavannaC"
+      },
+      {
+        "value": "CUSTOM:Paradise"
+      },
+      {
+        "value": "CUSTOM:Paradise2"
+      },
+      {
+        "value": "CUSTOM:Paradise3"
+      },
+      {
+        "value": "CUSTOM:Paradise5"
+      },
+      {
+        "value": "CUSTOM:Paradise6"
+      },
+      {
+        "value": "CUSTOM:Paradise7"
+      },
+      {
+        "value": "CUSTOM:Paradise8"
+      },
+      {
+        "value": "CUSTOM:Cherry"
+      },
+      {
+        "value": "CUSTOM:CrateHills"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Test"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Custom Biomes Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:ThingsInDevelopment"
+    },
+    "texture": "missing",
+    "portalTexture": "zzz",
+    "enablePortal": true
+  }
+}

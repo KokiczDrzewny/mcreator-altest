@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/lightmagenta",
+    "up": "altest:blocks/lightmagenta",
+    "north": "altest:blocks/lightmagenta",
+    "east": "altest:blocks/lightmagenta",
+    "south": "altest:blocks/lightmagenta",
+    "west": "altest:blocks/lightmagenta",
+    "particle": "altest:blocks/lightmagenta"
+  }
+}

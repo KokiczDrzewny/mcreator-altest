@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/dblcompresseddust",
+    "up": "altest:blocks/dblcompresseddust",
+    "north": "altest:blocks/dblcompresseddust",
+    "east": "altest:blocks/dblcompresseddust",
+    "south": "altest:blocks/dblcompresseddust",
+    "west": "altest:blocks/dblcompresseddust",
+    "particle": "altest:blocks/dblcompresseddust"
+  }
+}

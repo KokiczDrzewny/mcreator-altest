@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IronConverter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BaseGenerator"
+      },
+      {
+        "value": "CUSTOM:EnderiteIngot"
+      },
+      {
+        "value": "CUSTOM:GoldConverter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DiamConventer"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MaterialWall"
+    },
+    "name": "wall_recipe",
+    "namespace": "mod"
+  }
+}

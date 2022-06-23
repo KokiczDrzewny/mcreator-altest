@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:topaz"
+    },
+    "1": {
+      "item": "altest:topaz"
+    },
+    "2": {
+      "item": "altest:topaz"
+    },
+    "3": {
+      "item": "altest:topaz"
+    },
+    "5": {
+      "item": "altest:topaz"
+    }
+  },
+  "result": {
+    "item": "altest:topaz_armor_helmet",
+    "count": 1
+  }
+}

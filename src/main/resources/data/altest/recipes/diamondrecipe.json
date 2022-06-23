@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:diamondnugget"
+    },
+    "1": {
+      "item": "altest:diamondnugget"
+    },
+    "2": {
+      "item": "altest:diamondnugget"
+    },
+    "3": {
+      "item": "altest:diamondnugget"
+    },
+    "4": {
+      "item": "altest:diamondnugget"
+    },
+    "5": {
+      "item": "altest:diamondnugget"
+    },
+    "6": {
+      "item": "altest:diamondnugget"
+    },
+    "7": {
+      "item": "altest:diamondnugget"
+    },
+    "8": {
+      "item": "altest:diamondnugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

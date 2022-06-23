@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:heart"
+    },
+    "1": {
+      "item": "altest:heart"
+    },
+    "2": {
+      "item": "altest:obsidian_sword"
+    }
+  },
+  "result": {
+    "item": "altest:heart_stealer_sword",
+    "count": 1
+  }
+}

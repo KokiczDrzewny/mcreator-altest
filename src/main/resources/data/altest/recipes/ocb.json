@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:orange_crystal"
+    },
+    "1": {
+      "item": "altest:orange_crystal"
+    },
+    "2": {
+      "item": "altest:orange_crystal"
+    },
+    "3": {
+      "item": "altest:orange_crystal"
+    }
+  },
+  "result": {
+    "item": "altest:orange_crystal_block",
+    "count": 1
+  }
+}

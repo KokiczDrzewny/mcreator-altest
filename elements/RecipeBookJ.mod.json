@@ -1,0 +1,159 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "crafting_table.png",
+          "use1Xscale": false,
+          "name": "crafting_table.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ultra Chest",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ultra Chest",
+          "x": 152,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "NEXT PAGE ->",
+          "onClick": {
+            "name": "HI"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "NEXT PAGE ->",
+          "x": 170,
+          "y": 176
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chest.png",
+          "use1Xscale": false,
+          "name": "chest.png",
+          "x": 173,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chest.png",
+          "use1Xscale": false,
+          "name": "chest.png",
+          "x": 173,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ultrachest.png",
+          "use1Xscale": false,
+          "name": "ultrachest.png",
+          "x": 249,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chest.png",
+          "use1Xscale": false,
+          "name": "chest.png",
+          "x": 191,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "name": "diamond.png",
+          "x": 191,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emerald.png",
+          "use1Xscale": false,
+          "name": "emerald.png",
+          "x": 191,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emerald.png",
+          "use1Xscale": false,
+          "name": "emerald.png",
+          "x": 155,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chest.png",
+          "use1Xscale": false,
+          "name": "chest.png",
+          "x": 155,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond.png",
+          "use1Xscale": false,
+          "name": "diamond.png",
+          "x": 155,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chest.png",
+          "use1Xscale": false,
+          "name": "chest.png",
+          "x": 173,
+          "y": 54
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

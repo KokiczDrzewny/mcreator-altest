@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Not specified"
+
+[[mods]]
+modId="altest"
+version="0.52"
+displayName="AlTest"
+credits="Created using MCreator"
+displayURL="https://mcreator.net"
+authors="KokiczDrzewny"
+description='''
+Mod that adds multiple different categories of items and blocks
+'''
+
+[[dependencies.altest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

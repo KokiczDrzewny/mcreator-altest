@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:slate"
+    },
+    "1": {
+      "item": "altest:slate"
+    },
+    "2": {
+      "item": "altest:slate"
+    },
+    "3": {
+      "item": "altest:slate"
+    }
+  },
+  "result": {
+    "item": "altest:slate_bricks",
+    "count": 4
+  }
+}

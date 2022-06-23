@@ -1,0 +1,122 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Galaxy Dimension",
+    "groundBlock": {
+      "value": "CUSTOM:GalaxyGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:GalaxyDirt"
+    },
+    "airColor": {
+      "value": -6710785,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -39220,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -6723841,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13261,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -26266,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.0,
+    "temperature": 0.5,
+    "baseHeight": 0.30000000000000004,
+    "heightVariation": 0.6,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "CUSTOM:GalaxyLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:GalaxyLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:FlyingSlime"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

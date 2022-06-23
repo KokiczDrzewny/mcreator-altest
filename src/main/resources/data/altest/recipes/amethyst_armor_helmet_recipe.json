@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:amethyst"
+    },
+    "1": {
+      "item": "altest:amethyst"
+    },
+    "2": {
+      "item": "altest:amethyst"
+    },
+    "3": {
+      "item": "altest:amethyst"
+    },
+    "5": {
+      "item": "altest:amethyst"
+    }
+  },
+  "result": {
+    "item": "altest:amethyst_armor_helmet",
+    "count": 1
+  }
+}

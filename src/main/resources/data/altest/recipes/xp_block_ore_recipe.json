@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:xp_block"
+    }
+  ],
+  "result": {
+    "item": "altest:xp",
+    "count": 9
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:ruby"
+    },
+    "2": {
+      "item": "altest:ruby"
+    },
+    "3": {
+      "item": "altest:ruby"
+    },
+    "5": {
+      "item": "altest:ruby"
+    }
+  },
+  "result": {
+    "item": "altest:ruby_armor_boots",
+    "count": 1
+  }
+}

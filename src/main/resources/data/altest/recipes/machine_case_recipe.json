@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "altest:modularium_ingot"
+    },
+    "3": {
+      "item": "altest:modularium_ingot"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "altest:modularium_ingot"
+    },
+    "7": {
+      "item": "altest:modularium_ingot"
+    }
+  },
+  "result": {
+    "item": "altest:machine_case",
+    "count": 2
+  }
+}

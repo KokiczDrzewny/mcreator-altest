@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "altest:silver_ingot"
+    },
+    "1": {
+      "item": "altest:silver_ingot"
+    },
+    "2": {
+      "item": "altest:silver_ingot"
+    },
+    "3": {
+      "item": "altest:ingot_2"
+    },
+    "4": {
+      "item": "altest:ingot_3"
+    },
+    "5": {
+      "item": "altest:ingot_5"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "altest:hammer",
+    "count": 1
+  }
+}

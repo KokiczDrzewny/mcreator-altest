@@ -1,0 +1,115 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Savanna C",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -3355648,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10066432,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13382656,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16738048,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16738048,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "SAVANNA",
+    "rainingPossibility": 0.1,
+    "temperature": 1.2000000000000002,
+    "baseHeight": 0.2,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 8,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 2,
+    "mushroomsPerChunk": 1,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 2,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 5,
+    "treeStem": {
+      "value": "Blocks.LOG2#0"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES2#0"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

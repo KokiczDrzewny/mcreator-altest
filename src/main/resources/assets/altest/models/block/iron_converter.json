@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/irontopp",
+    "up": "altest:blocks/irontopp",
+    "north": "altest:blocks/irontop",
+    "east": "altest:blocks/irontop",
+    "south": "altest:blocks/irontop",
+    "west": "altest:blocks/irontop",
+    "particle": "altest:blocks/irontopp"
+  }
+}

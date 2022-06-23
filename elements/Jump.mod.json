@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "jump",
+    "name": "Music Disc",
+    "description": "Smash Hit - jump",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:jump"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

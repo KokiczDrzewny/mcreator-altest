@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:maple_log"
+    }
+  ],
+  "result": {
+    "item": "altest:maple_planks",
+    "count": 4
+  }
+}

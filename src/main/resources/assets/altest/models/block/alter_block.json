@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/blue_basalt",
+    "up": "altest:blocks/blue_basalt",
+    "north": "altest:blocks/blue_basalt",
+    "east": "altest:blocks/blue_basalt",
+    "south": "altest:blocks/blue_basalt",
+    "west": "altest:blocks/blue_basalt",
+    "particle": "altest:blocks/blue_basalt"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:amethyst"
+    },
+    "2": {
+      "item": "altest:amethyst"
+    },
+    "3": {
+      "item": "altest:amethyst"
+    },
+    "4": {
+      "item": "altest:amethyst"
+    },
+    "5": {
+      "item": "altest:amethyst"
+    },
+    "6": {
+      "item": "altest:amethyst"
+    },
+    "7": {
+      "item": "altest:amethyst"
+    },
+    "8": {
+      "item": "altest:amethyst"
+    }
+  },
+  "result": {
+    "item": "altest:amethyst_armor_chestplate",
+    "count": 1
+  }
+}

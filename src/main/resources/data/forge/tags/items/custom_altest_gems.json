@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "altest:sapphire",
+    "altest:amethyst",
+    "altest:jade",
+    "altest:amber",
+    "altest:ruby",
+    "altest:topaz"
+  ]
+}

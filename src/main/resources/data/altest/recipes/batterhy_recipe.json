@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:uranium_ingot"
+    },
+    "1": {
+      "item": "altest:goldened_wire"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "altest:battery_item",
+    "count": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "altest:blocks/flower2",
+    "particle": "altest:blocks/flower2"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Time Expired!",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Time Expired!",
+          "x": 177,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "        Close        ",
+          "width": 50,
+          "height": 20,
+          "name": "        Close        ",
+          "x": 188,
+          "y": 172
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Your 15 - minute timer has ended!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Your 15 - minute timer has ended!",
+          "x": 130,
+          "y": 56
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

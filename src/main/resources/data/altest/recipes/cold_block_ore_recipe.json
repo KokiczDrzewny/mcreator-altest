@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:cold_block"
+    }
+  ],
+  "result": {
+    "item": "altest:cold",
+    "count": 9
+  }
+}

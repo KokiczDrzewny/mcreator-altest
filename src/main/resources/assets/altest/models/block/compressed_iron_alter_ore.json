@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/compressedironore",
+    "up": "altest:blocks/compressedironore",
+    "north": "altest:blocks/compressedironore",
+    "east": "altest:blocks/compressedironore",
+    "south": "altest:blocks/compressedironore",
+    "west": "altest:blocks/compressedironore",
+    "particle": "altest:blocks/compressedironore"
+  }
+}

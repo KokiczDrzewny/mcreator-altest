@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DirtPowder"
+      },
+      {
+        "value": "CUSTOM:DirtPowder"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DirtPowder"
+      },
+      {
+        "value": "CUSTOM:DirtPowder"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.DIRT#0"
+    },
+    "name": "dirt_recipe",
+    "namespace": "mod"
+  }
+}

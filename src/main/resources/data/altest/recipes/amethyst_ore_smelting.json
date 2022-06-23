@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.0999999999999996,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "altest:amethyst_ore"
+  },
+  "result": {
+    "item": "altest:amethyst"
+  }
+}

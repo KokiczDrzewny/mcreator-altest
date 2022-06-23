@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.17,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "altest:cold_ore"
+  },
+  "result": {
+    "item": "altest:cold"
+  }
+}

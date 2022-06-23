@@ -1,0 +1,115 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "crafting_table.png",
+          "use1Xscale": false,
+          "name": "crafting_table.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Paradise Portal Igniter",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Paradise Portal Igniter",
+          "x": 136,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "NEXT PAGE ->",
+          "onClick": {
+            "name": "EF"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "NEXT PAGE ->",
+          "x": 170,
+          "y": 176
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coal.png",
+          "use1Xscale": false,
+          "name": "coal.png",
+          "x": 173,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ender_pearl.png",
+          "use1Xscale": false,
+          "name": "ender_pearl.png",
+          "x": 173,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dark_pearl.png",
+          "use1Xscale": false,
+          "name": "dark_pearl.png",
+          "x": 249,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You can make Paradise Portal",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "You can make Paradise Portal",
+          "x": 142,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Using Cold Blocks",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Using Cold Blocks",
+          "x": 160,
+          "y": 139
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

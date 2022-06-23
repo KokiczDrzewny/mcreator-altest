@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:silver_ingot"
+    },
+    "1": {
+      "item": "altest:silver_ingot"
+    },
+    "2": {
+      "item": "altest:silver_ingot"
+    },
+    "3": {
+      "item": "altest:silver_ingot"
+    },
+    "5": {
+      "item": "altest:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "altest:silver_armor_helmet",
+    "count": 1
+  }
+}

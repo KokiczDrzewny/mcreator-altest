@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:green_crystal"
+    },
+    "1": {
+      "item": "altest:green_crystal"
+    },
+    "2": {
+      "item": "altest:green_crystal"
+    },
+    "3": {
+      "item": "altest:green_crystal"
+    }
+  },
+  "result": {
+    "item": "altest:green_crystal_block",
+    "count": 1
+  }
+}

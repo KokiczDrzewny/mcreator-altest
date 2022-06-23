@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "altest:diamondnugget"
+    },
+    "3": {
+      "item": "altest:diamondnugget"
+    },
+    "4": {
+      "item": "altest:backpack_2"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "item": "altest:diamondnugget"
+    }
+  },
+  "result": {
+    "item": "altest:backpack_3",
+    "count": 1
+  }
+}

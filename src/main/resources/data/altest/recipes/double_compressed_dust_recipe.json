@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:compressed_dust"
+    },
+    "1": {
+      "item": "altest:compressed_dust"
+    },
+    "2": {
+      "item": "altest:compressed_dust"
+    },
+    "3": {
+      "item": "altest:compressed_dust"
+    }
+  },
+  "result": {
+    "item": "altest:double_compressed_dust",
+    "count": 1
+  }
+}

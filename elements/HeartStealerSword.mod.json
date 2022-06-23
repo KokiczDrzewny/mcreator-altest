@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "heartstealer",
+    "customModelName": "Normal",
+    "name": "Life Stealer Sword",
+    "specialInfo": [
+      "Can be enchanted with a special enchantment called \"Life Steal\""
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 3.0,
+    "attackSpeed": 2.8000000000000003,
+    "enchantability": 13,
+    "damageVsEntity": 9.0,
+    "usageCount": 1528,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Heart"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "HeartStealerSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

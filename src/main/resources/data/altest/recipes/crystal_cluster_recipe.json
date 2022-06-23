@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:purple_crystal"
+    },
+    {
+      "item": "altest:blue_crystal"
+    },
+    {
+      "item": "altest:green_crystal"
+    },
+    {
+      "item": "altest:red_crystal"
+    },
+    {
+      "item": "altest:orange_crystal"
+    },
+    {
+      "item": "altest:yellow_crystal"
+    }
+  ],
+  "result": {
+    "item": "altest:crystal_cluster",
+    "count": 6
+  }
+}

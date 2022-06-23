@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "altest:maple_log",
+    "altest:cherry_log",
+    "altest:galaxy_log",
+    "altest:thin_oak_log"
+  ]
+}

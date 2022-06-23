@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:cherry_planks"
+    }
+  ],
+  "result": {
+    "item": "altest:cherry_button",
+    "count": 1
+  }
+}

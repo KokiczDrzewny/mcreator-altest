@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:amber"
+    },
+    "1": {
+      "item": "altest:amber"
+    },
+    "2": {
+      "item": "altest:amber"
+    },
+    "3": {
+      "item": "altest:amber"
+    },
+    "4": {
+      "item": "altest:amber"
+    },
+    "5": {
+      "item": "altest:amber"
+    },
+    "6": {
+      "item": "altest:amber"
+    },
+    "7": {
+      "item": "altest:amber"
+    },
+    "8": {
+      "item": "altest:amber"
+    }
+  },
+  "result": {
+    "item": "altest:amber_block",
+    "count": 1
+  }
+}

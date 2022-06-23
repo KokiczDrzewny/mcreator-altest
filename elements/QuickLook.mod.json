@@ -1,0 +1,132 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 223,
+    "height": 187,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Quick Look Menu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Quick Look Menu",
+          "x": 172,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You are at <x> <y> and <z>.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You are at <x> <y> and <z>.",
+          "x": 107,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Survival",
+          "onClick": {
+            "name": "ModeSurvival"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Survival",
+          "x": 105,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Creative",
+          "onClick": {
+            "name": "ModeCreative"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Creative",
+          "x": 171,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Adventure",
+          "onClick": {
+            "name": "ModeAdventure"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Adventure",
+          "x": 105,
+          "y": 74
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Spectator",
+          "onClick": {
+            "name": "ModeSpectator"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Spectator",
+          "x": 176,
+          "y": 74
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Start 15 - minute timer",
+          "onClick": {
+            "name": "Timexepired"
+          },
+          "width": 140,
+          "height": 20,
+          "name": "Start 15 - minute timer",
+          "x": 142,
+          "y": 183
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Dupe machine",
+          "onClick": {
+            "name": "OpenDupeMachine"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Dupe machine",
+          "x": 168,
+          "y": 160
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

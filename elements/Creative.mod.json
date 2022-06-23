@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "musicdisccreative",
+    "name": "Music Disc",
+    "description": "C148 - Creative",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "music.creative"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

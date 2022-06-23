@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:cold"
+    },
+    "2": {
+      "item": "altest:cold"
+    },
+    "3": {
+      "item": "altest:cold"
+    },
+    "4": {
+      "item": "altest:cold"
+    },
+    "5": {
+      "item": "altest:cold"
+    },
+    "6": {
+      "item": "altest:cold"
+    },
+    "7": {
+      "item": "altest:cold"
+    },
+    "8": {
+      "item": "altest:cold"
+    }
+  },
+  "result": {
+    "item": "altest:cold_armor_chestplate",
+    "count": 1
+  }
+}

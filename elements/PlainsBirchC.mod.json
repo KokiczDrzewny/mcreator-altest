@@ -1,0 +1,107 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Plains C Birch",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -6697984,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10040320,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13395712,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "PLAINS",
+    "rainingPossibility": 0.5,
+    "temperature": 0.7999999999999999,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 8,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": {
+      "value": "Blocks.LOG#2"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES#0"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

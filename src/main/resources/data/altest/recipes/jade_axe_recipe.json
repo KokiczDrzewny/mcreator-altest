@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:jade"
+    },
+    "1": {
+      "item": "altest:jade"
+    },
+    "2": {
+      "item": "altest:jade"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "altest:jade_axe",
+    "count": 1
+  }
+}

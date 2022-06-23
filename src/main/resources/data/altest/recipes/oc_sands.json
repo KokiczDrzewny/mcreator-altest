@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:oceanic_sand"
+    },
+    "1": {
+      "item": "altest:oceanic_sand"
+    },
+    "2": {
+      "item": "altest:oceanic_sand"
+    },
+    "3": {
+      "item": "altest:oceanic_sand"
+    }
+  },
+  "result": {
+    "item": "altest:oceanic_sand_stone",
+    "count": 4
+  }
+}

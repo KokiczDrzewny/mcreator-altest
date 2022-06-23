@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:xp"
+    },
+    "1": {
+      "item": "altest:xp"
+    },
+    "2": {
+      "item": "altest:xp"
+    },
+    "3": {
+      "item": "altest:xp"
+    },
+    "4": {
+      "item": "altest:xp"
+    },
+    "5": {
+      "item": "altest:xp"
+    },
+    "6": {
+      "item": "altest:xp"
+    },
+    "7": {
+      "item": "altest:xp"
+    },
+    "8": {
+      "item": "altest:xp"
+    }
+  },
+  "result": {
+    "item": "altest:xp_block",
+    "count": 1
+  }
+}

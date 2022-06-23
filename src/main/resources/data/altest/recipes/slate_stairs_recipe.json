@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:slate"
+    },
+    "3": {
+      "item": "altest:slate"
+    },
+    "4": {
+      "item": "altest:slate"
+    },
+    "6": {
+      "item": "altest:slate"
+    },
+    "7": {
+      "item": "altest:slate"
+    },
+    "8": {
+      "item": "altest:slate"
+    }
+  },
+  "result": {
+    "item": "altest:slate_stairs",
+    "count": 8
+  }
+}

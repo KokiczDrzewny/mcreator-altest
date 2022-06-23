@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "altest:diamondnugget"
+    },
+    "3": {
+      "item": "altest:diamondnugget"
+    },
+    "4": {
+      "item": "altest:coin_base"
+    },
+    "5": {
+      "item": "altest:diamondnugget"
+    },
+    "7": {
+      "item": "altest:diamondnugget"
+    }
+  },
+  "result": {
+    "item": "altest:coin_20",
+    "count": 1
+  }
+}

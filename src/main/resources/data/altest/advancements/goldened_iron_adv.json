@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "altest:goldened_iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.goldened_iron_adv.title"
+    },
+    "description": {
+      "translate": "advancements.goldened_iron_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goldened_iron_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "altest:goldened_iron_ingot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "altest:iron_ingot_adv"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/leaves_summer",
+    "up": "altest:blocks/leaves_summer",
+    "north": "altest:blocks/leaves_summer",
+    "east": "altest:blocks/leaves_summer",
+    "south": "altest:blocks/leaves_summer",
+    "west": "altest:blocks/leaves_summer",
+    "particle": "altest:blocks/leaves_summer"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:ruby"
+    },
+    "1": {
+      "item": "altest:ruby"
+    },
+    "2": {
+      "item": "altest:ruby"
+    },
+    "3": {
+      "item": "altest:ruby"
+    },
+    "5": {
+      "item": "altest:ruby"
+    },
+    "6": {
+      "item": "altest:ruby"
+    },
+    "8": {
+      "item": "altest:ruby"
+    }
+  },
+  "result": {
+    "item": "altest:ruby_armor_leggings",
+    "count": 1
+  }
+}

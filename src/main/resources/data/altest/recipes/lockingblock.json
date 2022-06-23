@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "altest:shardgloos"
+    },
+    "3": {
+      "item": "altest:shardgloos"
+    },
+    "4": {
+      "item": "altest:xp"
+    },
+    "5": {
+      "item": "altest:shardgloos"
+    },
+    "7": {
+      "item": "altest:shardgloos"
+    }
+  },
+  "result": {
+    "item": "altest:lootblockchisel",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_CHESTPLATE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:EnderiteIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:EnderiteArmor.body"
+    },
+    "name": "enderite_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

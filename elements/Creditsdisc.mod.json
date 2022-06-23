@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_credits",
+    "name": "Music Disc",
+    "description": "C148 - alpha",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "music.credits"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "altest:iron_converter"
+    },
+    "3": {
+      "item": "altest:base_generator"
+    },
+    "4": {
+      "item": "altest:enderite_ingot"
+    },
+    "5": {
+      "item": "altest:gold_converter"
+    },
+    "7": {
+      "item": "altest:diam_conventer"
+    }
+  },
+  "result": {
+    "item": "altest:material_wall",
+    "count": 1
+  }
+}

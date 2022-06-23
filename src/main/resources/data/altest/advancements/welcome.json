@@ -1,0 +1,32 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "altest:debug"
+    },
+    "title": {
+      "translate": "advancements.welcome.title"
+    },
+    "description": {
+      "translate": "advancements.welcome.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "loot": [
+      "altest:gameplay/welcome_loot"
+    ]
+  }
+}

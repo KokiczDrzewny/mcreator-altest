@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "altest:ingot_2"
+    },
+    "1": {
+      "item": "altest:ingot_3"
+    },
+    "2": {
+      "item": "altest:ingot_5"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "altest:ultimatepick",
+    "count": 1
+  }
+}

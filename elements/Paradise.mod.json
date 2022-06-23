@@ -1,0 +1,130 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Cherry Paradise Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.CLAY"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6684928,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13369345,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13369345,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.2,
+    "temperature": 0.7,
+    "baseHeight": 1.0,
+    "heightVariation": 0.7999999999999999,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 11,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 2,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": {
+      "value": "CUSTOM:CherryLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:CherryLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "ExtraGoldOre",
+      "ExtraEmeraldOre",
+      "BerryBushes",
+      "Fossils",
+      "TaigaRocks"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:FriendlyCreeper"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 25,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

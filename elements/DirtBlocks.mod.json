@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GalaxyGrass"
+      },
+      {
+        "value": "Blocks.WARPED_NYLIUM"
+      },
+      {
+        "value": "Blocks.CRIMSON_NYLIUM"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}

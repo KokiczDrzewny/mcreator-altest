@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "altest:block/plant"
+    },
+    "age=1": {
+      "model": "altest:block/plant"
+    },
+    "age=2": {
+      "model": "altest:block/plant"
+    },
+    "age=3": {
+      "model": "altest:block/plant"
+    },
+    "age=4": {
+      "model": "altest:block/plant"
+    },
+    "age=5": {
+      "model": "altest:block/plant"
+    },
+    "age=6": {
+      "model": "altest:block/plant"
+    },
+    "age=7": {
+      "model": "altest:block/plant"
+    },
+    "age=8": {
+      "model": "altest:block/plant"
+    },
+    "age=9": {
+      "model": "altest:block/plant"
+    },
+    "age=10": {
+      "model": "altest:block/plant"
+    },
+    "age=11": {
+      "model": "altest:block/plant"
+    },
+    "age=12": {
+      "model": "altest:block/plant"
+    },
+    "age=13": {
+      "model": "altest:block/plant"
+    },
+    "age=14": {
+      "model": "altest:block/plant"
+    },
+    "age=15": {
+      "model": "altest:block/plant"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "altest:water_in_bowl"
+    },
+    {
+      "item": "altest:noodles"
+    }
+  ],
+  "result": {
+    "item": "altest:rosolek_z_kury",
+    "count": 2
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "chceesee",
+    "customModelName": "Normal",
+    "name": "Cheese",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 40,
+    "toolType": 0.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Its very cool"
+    ],
+    "hasGlow": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false,
+    "isFood": true,
+    "nutritionalValue": 12,
+    "saturation": 1.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

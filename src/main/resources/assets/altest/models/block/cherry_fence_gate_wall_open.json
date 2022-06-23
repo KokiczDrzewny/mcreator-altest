@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall_open",
+  "textures": {
+    "texture": "altest:blocks/cherry_planks"
+  }
+}

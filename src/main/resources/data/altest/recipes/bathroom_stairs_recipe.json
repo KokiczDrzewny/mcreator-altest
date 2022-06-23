@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:bathroom_tiles"
+    },
+    "3": {
+      "item": "altest:bathroom_tiles"
+    },
+    "4": {
+      "item": "altest:bathroom_tiles"
+    },
+    "6": {
+      "item": "altest:bathroom_tiles"
+    },
+    "7": {
+      "item": "altest:bathroom_tiles"
+    },
+    "8": {
+      "item": "altest:bathroom_tiles"
+    }
+  },
+  "result": {
+    "item": "altest:bathroom_stairs",
+    "count": 8
+  }
+}

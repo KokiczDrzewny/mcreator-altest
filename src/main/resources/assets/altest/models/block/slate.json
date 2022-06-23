@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/slatee",
+    "up": "altest:blocks/slatee",
+    "north": "altest:blocks/slatee",
+    "east": "altest:blocks/slatee",
+    "south": "altest:blocks/slatee",
+    "west": "altest:blocks/slatee",
+    "particle": "altest:blocks/slatee"
+  }
+}

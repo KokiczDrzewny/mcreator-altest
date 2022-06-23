@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "microphone",
+    "name": "Music Disc",
+    "description": "Smash Hit Custom Hit - microphone",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:microphone"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

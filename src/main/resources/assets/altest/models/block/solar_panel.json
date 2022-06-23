@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/newsolaroutput",
+    "up": "altest:blocks/solar",
+    "north": "altest:blocks/solar_panel_side",
+    "east": "altest:blocks/solar_panel_side",
+    "south": "altest:blocks/solar_panel_side",
+    "west": "altest:blocks/solar_panel_side",
+    "particle": "altest:blocks/newsolaroutput"
+  }
+}

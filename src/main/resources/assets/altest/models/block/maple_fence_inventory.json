@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "altest:blocks/maple_planks",
+    "particle": "altest:blocks/maple_planks"
+  }
+}

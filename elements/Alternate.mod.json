@@ -1,0 +1,52 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Cherry"
+      },
+      {
+        "value": "CUSTOM:Mystery"
+      },
+      {
+        "value": "CUSTOM:DarkBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:AlterBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:AlterBlock2"
+    },
+    "airColor": {
+      "value": -8989465,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:SilverBlock"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Alternate Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "ballonstik",
+    "portalTexture": "gemblock",
+    "enablePortal": true
+  }
+}

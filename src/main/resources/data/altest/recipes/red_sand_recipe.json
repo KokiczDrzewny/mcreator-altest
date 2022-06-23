@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:red_sand_powder"
+    },
+    "1": {
+      "item": "altest:red_sand_powder"
+    },
+    "2": {
+      "item": "altest:red_sand_powder"
+    },
+    "3": {
+      "item": "altest:red_sand_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_sand",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:purple_crystal"
+    },
+    "1": {
+      "item": "altest:purple_crystal"
+    },
+    "2": {
+      "item": "altest:purple_crystal"
+    },
+    "3": {
+      "item": "altest:purple_crystal"
+    }
+  },
+  "result": {
+    "item": "altest:purple_crystal_block",
+    "count": 1
+  }
+}

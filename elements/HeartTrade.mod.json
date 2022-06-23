@@ -1,0 +1,83 @@
+{
+  "_fv": 28,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Coin20"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Heart"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 16,
+            "xp": 9,
+            "priceMultiplier": 0.25
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Coin25"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Heart"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 6,
+            "priceMultiplier": 0.09999999999999999
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:Coin10"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Coin5"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Heart"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 7,
+            "priceMultiplier": 0.15000000000000002
+          }
+        ]
+      }
+    ]
+  }
+}

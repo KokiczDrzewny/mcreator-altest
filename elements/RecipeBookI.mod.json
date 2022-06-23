@@ -1,0 +1,102 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "crafting_table.png",
+          "use1Xscale": false,
+          "name": "crafting_table.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Colored Planks",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Colored Planks",
+          "x": 146,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "NEXT PAGE ->",
+          "onClick": {
+            "name": "IJ"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "NEXT PAGE ->",
+          "x": 170,
+          "y": 176
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "planks.png",
+          "use1Xscale": false,
+          "name": "planks.png",
+          "x": 173,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "red_dye.png",
+          "use1Xscale": false,
+          "name": "red_dye.png",
+          "x": 173,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "planksred.png",
+          "use1Xscale": false,
+          "name": "planksred.png",
+          "x": 249,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Any planks and dye works",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Any planks and dye works",
+          "x": 155,
+          "y": 142
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

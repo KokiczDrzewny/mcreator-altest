@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "altest:block/galaxy_dim_portal_ew"
+    },
+    "axis=x": {
+      "model": "altest:block/galaxy_dim_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.QUARTZ"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "Items.QUARTZ"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BathroomTiles"
+    },
+    "name": "bathroom_tiles_recipe",
+    "namespace": "mod"
+  }
+}

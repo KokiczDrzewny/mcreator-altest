@@ -1,0 +1,25 @@
+{
+  "_fv": 28,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Ultimate food of all...",
+    "achievementDescription": "Craft and eat Chicken Soup",
+    "achievementIcon": {
+      "value": "CUSTOM:RosolekZKury"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 50,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:Xpgain"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"43\" y=\"29\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:RosolekZKury</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

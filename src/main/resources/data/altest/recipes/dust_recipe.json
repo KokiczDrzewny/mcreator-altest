@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:dust_powder"
+    },
+    "1": {
+      "item": "altest:dust_powder"
+    },
+    "2": {
+      "item": "altest:dust_powder"
+    },
+    "3": {
+      "item": "altest:dust_powder"
+    }
+  },
+  "result": {
+    "item": "altest:dust",
+    "count": 1
+  }
+}

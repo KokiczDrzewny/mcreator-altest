@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "altest:blocks/oak_log",
+    "particle": "altest:blocks/oak_log"
+  }
+}

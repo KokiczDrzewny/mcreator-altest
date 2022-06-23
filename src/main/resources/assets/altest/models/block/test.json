@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/missing",
+    "up": "altest:blocks/missing",
+    "north": "altest:blocks/missing",
+    "east": "altest:blocks/missing",
+    "south": "altest:blocks/missing",
+    "west": "altest:blocks/missing",
+    "particle": "altest:blocks/missing"
+  }
+}

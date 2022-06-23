@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "altest:blocks/birch_sapling",
+    "particle": "altest:blocks/birch_sapling"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:cherry_planks"
+    },
+    "1": {
+      "item": "altest:cherry_planks"
+    },
+    "2": {
+      "item": "altest:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "altest:cherry_slab",
+    "count": 6
+  }
+}

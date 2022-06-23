@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/uranium_block",
+    "up": "altest:blocks/uranium_block",
+    "north": "altest:blocks/uranium_block",
+    "east": "altest:blocks/uranium_block",
+    "south": "altest:blocks/uranium_block",
+    "west": "altest:blocks/uranium_block",
+    "particle": "altest:blocks/uranium_block"
+  }
+}

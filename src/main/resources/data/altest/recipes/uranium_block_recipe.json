@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:uranium_ingot"
+    },
+    "1": {
+      "item": "altest:uranium_ingot"
+    },
+    "2": {
+      "item": "altest:uranium_ingot"
+    },
+    "3": {
+      "item": "altest:uranium_ingot"
+    },
+    "4": {
+      "item": "altest:uranium_ingot"
+    },
+    "5": {
+      "item": "altest:uranium_ingot"
+    },
+    "6": {
+      "item": "altest:uranium_ingot"
+    },
+    "7": {
+      "item": "altest:uranium_ingot"
+    },
+    "8": {
+      "item": "altest:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "altest:uranium_block",
+    "count": 1
+  }
+}

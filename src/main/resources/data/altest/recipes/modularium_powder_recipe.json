@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:iron_powder"
+    },
+    "1": {
+      "item": "altest:uranium_powder"
+    },
+    "2": {
+      "item": "altest:iron_powder"
+    },
+    "3": {
+      "item": "altest:uranium_powder"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "altest:uranium_powder"
+    },
+    "6": {
+      "item": "altest:iron_powder"
+    },
+    "7": {
+      "item": "altest:uranium_powder"
+    },
+    "8": {
+      "item": "altest:iron_powder"
+    }
+  },
+  "result": {
+    "item": "altest:modularium_powder",
+    "count": 5
+  }
+}

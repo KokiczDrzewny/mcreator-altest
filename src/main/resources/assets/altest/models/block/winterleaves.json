@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/leaves_winter",
+    "up": "altest:blocks/leaves_winter",
+    "north": "altest:blocks/leaves_winter",
+    "east": "altest:blocks/leaves_winter",
+    "south": "altest:blocks/leaves_winter",
+    "west": "altest:blocks/leaves_winter",
+    "particle": "altest:blocks/leaves_winter"
+  }
+}

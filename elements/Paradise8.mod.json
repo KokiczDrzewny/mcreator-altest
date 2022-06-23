@@ -1,0 +1,104 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Summer Desert Paradise",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.SAND#0"
+    },
+    "airColor": {
+      "value": -983296,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -4260096,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16711824,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.0,
+    "temperature": 0.9,
+    "baseHeight": 0.2,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 5,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 1,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 5,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "Blocks.LOG#3"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Summerleaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

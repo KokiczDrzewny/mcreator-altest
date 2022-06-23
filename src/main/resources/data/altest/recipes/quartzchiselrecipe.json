@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chiseled_quartz_block"
+    },
+    "1": {
+      "item": "minecraft:chiseled_quartz_block"
+    },
+    "2": {
+      "item": "minecraft:chiseled_quartz_block"
+    },
+    "3": {
+      "item": "minecraft:chiseled_quartz_block"
+    }
+  },
+  "result": {
+    "item": "altest:quartzchisel",
+    "count": 2
+  }
+}

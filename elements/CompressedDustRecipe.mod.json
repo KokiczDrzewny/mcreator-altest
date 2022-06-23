@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dust"
+      },
+      {
+        "value": "CUSTOM:Dust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dust"
+      },
+      {
+        "value": "CUSTOM:Dust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CompressedDust"
+    },
+    "name": "compressed_dust_recipe",
+    "namespace": "mod"
+  }
+}

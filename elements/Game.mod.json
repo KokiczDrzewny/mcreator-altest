@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "musicdisc_game",
+    "name": "Music Disc",
+    "description": "C148 - Game",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "music.game"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

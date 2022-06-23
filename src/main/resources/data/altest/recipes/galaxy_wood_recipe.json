@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:galaxy_log"
+    },
+    "1": {
+      "item": "altest:galaxy_log"
+    },
+    "2": {
+      "item": "altest:galaxy_log"
+    },
+    "3": {
+      "item": "altest:galaxy_log"
+    }
+  },
+  "result": {
+    "item": "altest:galaxy_wood",
+    "count": 3
+  }
+}

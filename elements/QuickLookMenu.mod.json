@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "O",
+    "keyBindingName": "Open Quick Look Menu",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "OpenGUIQM"
+    }
+  }
+}

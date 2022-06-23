@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:piston"
+    },
+    "1": {
+      "item": "minecraft:wheat"
+    },
+    "2": {
+      "item": "altest:water_in_bowl"
+    }
+  },
+  "result": {
+    "item": "altest:noodles",
+    "count": 3
+  }
+}

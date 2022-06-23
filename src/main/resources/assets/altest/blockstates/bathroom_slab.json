@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "altest:block/bathroom_slab"
+    },
+    "type=top": {
+      "model": "altest:block/bathroom_slab_top"
+    },
+    "type=double": {
+      "model": "altest:block/bathroom_slab_full"
+    }
+  }
+}

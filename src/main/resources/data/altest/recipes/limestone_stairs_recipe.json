@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:limestone"
+    },
+    "3": {
+      "item": "altest:limestone"
+    },
+    "4": {
+      "item": "altest:limestone"
+    },
+    "6": {
+      "item": "altest:limestone"
+    },
+    "7": {
+      "item": "altest:limestone"
+    },
+    "8": {
+      "item": "altest:limestone"
+    }
+  },
+  "result": {
+    "item": "altest:limestone_stairs",
+    "count": 8
+  }
+}

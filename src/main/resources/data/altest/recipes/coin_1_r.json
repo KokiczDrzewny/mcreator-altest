@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:coal"
+    },
+    "3": {
+      "item": "minecraft:coal"
+    },
+    "4": {
+      "item": "altest:coin_base"
+    },
+    "5": {
+      "item": "minecraft:coal"
+    },
+    "7": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "altest:coin_1",
+    "count": 1
+  }
+}

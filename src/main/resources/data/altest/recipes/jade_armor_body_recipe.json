@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:jade"
+    },
+    "2": {
+      "item": "altest:jade"
+    },
+    "3": {
+      "item": "altest:jade"
+    },
+    "4": {
+      "item": "altest:jade"
+    },
+    "5": {
+      "item": "altest:jade"
+    },
+    "6": {
+      "item": "altest:jade"
+    },
+    "7": {
+      "item": "altest:jade"
+    },
+    "8": {
+      "item": "altest:jade"
+    }
+  },
+  "result": {
+    "item": "altest:jade_armor_chestplate",
+    "count": 1
+  }
+}

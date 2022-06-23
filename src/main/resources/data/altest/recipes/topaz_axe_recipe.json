@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:topaz"
+    },
+    "1": {
+      "item": "altest:topaz"
+    },
+    "2": {
+      "item": "altest:topaz"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "altest:topaz_axe",
+    "count": 1
+  }
+}

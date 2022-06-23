@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/galaxy_log_top",
+    "up": "altest:blocks/galaxy_log_top",
+    "north": "altest:blocks/galaxy_log_side",
+    "east": "altest:blocks/galaxy_log_side",
+    "south": "altest:blocks/galaxy_log_side",
+    "west": "altest:blocks/galaxy_log_side",
+    "particle": "altest:blocks/galaxy_log_top"
+  }
+}

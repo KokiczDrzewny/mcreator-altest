@@ -1,0 +1,112 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Mystery",
+    "groundBlock": {
+      "value": "Blocks.DIRT#1"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "airColor": {
+      "value": -8423823,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -11127264,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -10337489,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6200775,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -6788790,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 1.0,
+    "temperature": 2.0,
+    "baseHeight": 0.4,
+    "heightVariation": 0.6,
+    "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 7,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 3,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 1,
+    "mushroomsPerChunk": 2,
+    "bigMushroomsChunk": 1,
+    "sandPatchesPerChunk": 4,
+    "gravelPatchesPerChunk": 3,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 5,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 9,
+    "treeStem": {
+      "value": "CUSTOM:MapleLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:MapleLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": "CUSTOM:Lootblockchisel"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

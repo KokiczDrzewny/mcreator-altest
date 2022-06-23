@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/lightpink",
+    "up": "altest:blocks/lightpink",
+    "north": "altest:blocks/lightpink",
+    "east": "altest:blocks/lightpink",
+    "south": "altest:blocks/lightpink",
+    "west": "altest:blocks/lightpink",
+    "particle": "altest:blocks/lightpink"
+  }
+}

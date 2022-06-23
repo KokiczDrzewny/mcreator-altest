@@ -1,0 +1,47 @@
+{
+  "microphone": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "altest:custom2_alt",
+        "stream": false
+      }
+    ]
+  },
+  "zen": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "altest:menu_zen",
+        "stream": false
+      }
+    ]
+  },
+  "aqua": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "altest:44",
+        "stream": false
+      }
+    ]
+  },
+  "jump": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "altest:40",
+        "stream": false
+      }
+    ]
+  },
+  "dynamic": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "altest:26_alt",
+        "stream": false
+      }
+    ]
+  }
+}

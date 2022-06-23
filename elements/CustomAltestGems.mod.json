@@ -1,0 +1,32 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Amethyst"
+      },
+      {
+        "value": "CUSTOM:Sapphire"
+      },
+      {
+        "value": "CUSTOM:Ruby"
+      },
+      {
+        "value": "CUSTOM:Topaz"
+      },
+      {
+        "value": "CUSTOM:Jade"
+      },
+      {
+        "value": "CUSTOM:Amber"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "custom_altest_gems",
+    "namespace": "forge"
+  }
+}

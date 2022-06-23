@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/woold",
+    "up": "altest:blocks/woold",
+    "north": "altest:blocks/woold",
+    "east": "altest:blocks/woold",
+    "south": "altest:blocks/woold",
+    "west": "altest:blocks/woold",
+    "particle": "altest:blocks/woold"
+  }
+}

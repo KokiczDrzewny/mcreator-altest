@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnderiteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElectricGear"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "CUSTOM:ElectricGear"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MachineCase"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DiamConventer"
+    },
+    "name": "diam_conventer_recipe",
+    "namespace": "mod"
+  }
+}

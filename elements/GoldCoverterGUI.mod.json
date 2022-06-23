@@ -1,0 +1,74 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Gold Converter",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Gold Converter",
+          "x": 177,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 140,
+          "y": 73
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 265,
+          "y": 73
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Convert",
+          "onClick": {
+            "name": "Testdd"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Convert",
+          "x": 181,
+          "y": 93
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

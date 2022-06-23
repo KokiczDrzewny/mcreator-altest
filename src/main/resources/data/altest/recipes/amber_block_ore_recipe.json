@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:amber_block"
+    }
+  ],
+  "result": {
+    "item": "altest:amber",
+    "count": 9
+  }
+}

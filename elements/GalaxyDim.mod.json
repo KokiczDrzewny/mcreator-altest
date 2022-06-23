@@ -1,0 +1,42 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:GalaxyDimension"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:GalaxyStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.PURPUR_BLOCK"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Galaxy Dim Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "xp_gem",
+    "portalTexture": "zzz",
+    "enablePortal": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_dye"
+    },
+    "1": {
+      "item": "altest:cotton"
+    },
+    "2": {
+      "item": "altest:plastic_stick"
+    }
+  },
+  "result": {
+    "item": "altest:cotton_candy",
+    "count": 1
+  }
+}

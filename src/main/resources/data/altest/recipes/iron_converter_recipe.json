@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "altest:enderite_ingot"
+    },
+    "3": {
+      "item": "altest:electric_gear"
+    },
+    "4": {
+      "item": "minecraft:iron_block"
+    },
+    "5": {
+      "item": "altest:electric_gear"
+    },
+    "7": {
+      "item": "altest:machine_case"
+    }
+  },
+  "result": {
+    "item": "altest:iron_converter",
+    "count": 1
+  }
+}

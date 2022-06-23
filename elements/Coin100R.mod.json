@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cold"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cold"
+      },
+      {
+        "value": "CUSTOM:CoinBase"
+      },
+      {
+        "value": "CUSTOM:Cold"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cold"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Coin100"
+    },
+    "name": "coin_100_r",
+    "namespace": "mod"
+  }
+}

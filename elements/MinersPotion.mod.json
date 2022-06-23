@@ -1,0 +1,39 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Miners",
+    "splashName": "Splash Potion of Miners",
+    "lingeringName": "Lingering Potion of Miners",
+    "arrowName": "Arrow of Miners ",
+    "effects": [
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "NIGHT_VISION"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SATURATION"
+        },
+        "duration": 3600,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

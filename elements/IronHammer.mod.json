@@ -1,0 +1,43 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hammer_iron",
+    "customModelName": "Normal",
+    "name": "Iron Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 5.5,
+    "usageCount": 250,
+    "blocksAffected": [
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "WoodenHammerBlockDestroyedWithTool"
+    }
+  }
+}

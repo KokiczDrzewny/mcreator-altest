@@ -1,0 +1,128 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Maple Paradise Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "grassColor": {
+      "value": -10027213,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13408513,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.19999999999999998,
+    "temperature": 0.7,
+    "baseHeight": 0.4,
+    "heightVariation": 0.7999999999999999,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 6,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 6,
+    "treeStem": {
+      "value": "CUSTOM:MapleLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:MapleLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 4,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

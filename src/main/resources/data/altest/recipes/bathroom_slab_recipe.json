@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:bathroom_tiles"
+    },
+    "1": {
+      "item": "altest:bathroom_tiles"
+    },
+    "2": {
+      "item": "altest:bathroom_tiles"
+    }
+  },
+  "result": {
+    "item": "altest:bathroom_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:sand_powder"
+    },
+    "1": {
+      "item": "altest:sand_powder"
+    },
+    "2": {
+      "item": "altest:sand_powder"
+    },
+    "3": {
+      "item": "altest:sand_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:sand",
+    "count": 1
+  }
+}

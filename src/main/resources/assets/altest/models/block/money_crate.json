@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/moneycrate",
+    "up": "altest:blocks/moneycrate",
+    "north": "altest:blocks/moneycrate",
+    "east": "altest:blocks/moneycrate",
+    "south": "altest:blocks/moneycrate",
+    "west": "altest:blocks/moneycrate",
+    "particle": "altest:blocks/moneycrate"
+  }
+}

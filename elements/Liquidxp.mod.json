@@ -1,0 +1,47 @@
+{
+  "_fv": 28,
+  "_type": "fluid",
+  "definition": {
+    "name": "Liquid XP",
+    "bucketName": "XP Bucket",
+    "textureStill": "xp_ore_block",
+    "textureFlowing": "testgem_ore_block",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 3,
+    "levelDecrease": 1,
+    "slopeFindDistance": 2,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "CUSTOM:Alterportalparticles"
+    },
+    "flowStrength": 0.4,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "xpbucket",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 0,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

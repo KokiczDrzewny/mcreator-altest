@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:cherry_planks"
+    },
+    "1": {
+      "item": "altest:cherry_planks"
+    },
+    "2": {
+      "item": "altest:cherry_planks"
+    },
+    "3": {
+      "item": "altest:cherry_planks"
+    },
+    "4": {
+      "item": "altest:cherry_planks"
+    },
+    "5": {
+      "item": "altest:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "altest:cherry_trapdoor",
+    "count": 3
+  }
+}

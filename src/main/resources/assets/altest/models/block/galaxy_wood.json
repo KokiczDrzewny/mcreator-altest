@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "altest:blocks/galaxy_log_side",
+    "particle": "altest:blocks/galaxy_log_side"
+  }
+}

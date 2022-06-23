@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "altest:block/grass_slab"
+    },
+    "type=top": {
+      "model": "altest:block/grass_slab_top"
+    },
+    "type=double": {
+      "model": "altest:block/grass_slab_full"
+    }
+  }
+}

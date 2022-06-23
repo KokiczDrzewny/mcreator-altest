@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:slate"
+    },
+    "1": {
+      "item": "altest:slate"
+    },
+    "2": {
+      "item": "altest:slate"
+    }
+  },
+  "result": {
+    "item": "altest:slate_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:cotton"
+    },
+    "1": {
+      "item": "altest:cotton"
+    },
+    "2": {
+      "item": "altest:cotton"
+    },
+    "3": {
+      "item": "altest:cotton"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_wool",
+    "count": 1
+  }
+}

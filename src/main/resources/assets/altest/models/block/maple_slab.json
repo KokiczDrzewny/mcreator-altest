@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "altest:blocks/maple_planks",
+    "top": "altest:blocks/maple_planks",
+    "side": "altest:blocks/maple_planks"
+  }
+}

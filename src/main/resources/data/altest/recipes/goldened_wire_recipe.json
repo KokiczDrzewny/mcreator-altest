@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:goldened_iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "altest:goldened_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "altest:goldened_wire",
+    "count": 3
+  }
+}

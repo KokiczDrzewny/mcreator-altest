@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:ElectricDust"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ElecticIngot"
+    },
+    "name": "electric_dust_smelt",
+    "namespace": "mod"
+  }
+}

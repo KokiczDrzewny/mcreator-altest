@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "altest:blocks/old_grass",
+    "particle": "altest:blocks/old_grass"
+  }
+}

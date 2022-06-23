@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "altest:cold"
+    },
+    "1": {
+      "item": "altest:cold"
+    },
+    "2": {
+      "item": "altest:cold"
+    },
+    "3": {
+      "item": "altest:cold"
+    },
+    "5": {
+      "item": "altest:cold"
+    }
+  },
+  "result": {
+    "item": "altest:cold_armor_helmet",
+    "count": 1
+  }
+}

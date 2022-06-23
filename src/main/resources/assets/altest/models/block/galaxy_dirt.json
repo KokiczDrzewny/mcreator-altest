@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/galaxydirt",
+    "up": "altest:blocks/galaxydirt",
+    "north": "altest:blocks/galaxydirt",
+    "east": "altest:blocks/galaxydirt",
+    "south": "altest:blocks/galaxydirt",
+    "west": "altest:blocks/galaxydirt",
+    "particle": "altest:blocks/galaxydirt"
+  }
+}

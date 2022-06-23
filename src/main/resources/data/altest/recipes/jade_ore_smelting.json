@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.3099999999999996,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "altest:jade_ore"
+  },
+  "result": {
+    "item": "altest:jade"
+  }
+}
