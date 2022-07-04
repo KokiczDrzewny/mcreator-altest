@@ -5,10 +5,7 @@
       "item": "minecraft:iron_ingot"
     },
     {
-      "item": "minecraft:iron_ingot"
-    },
-    {
-      "item": "minecraft:iron_ingot"
+      "item": "altest:infuser"
     },
     {
       "item": "minecraft:gold_nugget"
@@ -16,6 +13,6 @@
   ],
   "result": {
     "item": "altest:goldened_iron_ingot",
-    "count": 3
+    "count": 1
   }
 }

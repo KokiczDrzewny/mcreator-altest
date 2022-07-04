@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "electrocopper_ingot",
+    "texture": "electrocopper_ingot_2",
     "customModelName": "Normal",
     "name": "Electrocopper Ingot",
     "rarity": "COMMON",

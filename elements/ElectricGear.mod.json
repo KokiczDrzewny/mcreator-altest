@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "electric_gear",
+    "texture": "electric_gear_animation",
     "customModelName": "Normal",
     "name": "Electric Gear",
     "rarity": "COMMON",
