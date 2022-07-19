@@ -28,7 +28,7 @@ public class HammerItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public HammerItem(AltestModElements instance) {
-		super(instance, 42);
+		super(instance, 41);
 	}
 
 	@Override

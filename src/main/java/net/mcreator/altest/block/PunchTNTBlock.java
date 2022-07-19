@@ -36,7 +36,7 @@ public class PunchTNTBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public PunchTNTBlock(AltestModElements instance) {
-		super(instance, 208);
+		super(instance, 221);
 	}
 
 	@Override

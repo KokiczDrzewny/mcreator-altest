@@ -39,7 +39,7 @@ public class ParadiseBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public ParadiseBiome(AltestModElements instance) {
-		super(instance, 435);
+		super(instance, 491);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

@@ -39,7 +39,7 @@ public class DesertCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public DesertCBiome(AltestModElements instance) {
-		super(instance, 597);
+		super(instance, 649);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

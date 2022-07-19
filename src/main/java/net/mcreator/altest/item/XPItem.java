@@ -18,7 +18,7 @@ public class XPItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public XPItem(AltestModElements instance) {
-		super(instance, 274);
+		super(instance, 291);
 	}
 
 	@Override

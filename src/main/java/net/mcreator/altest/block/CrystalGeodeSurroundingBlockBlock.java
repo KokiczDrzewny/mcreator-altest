@@ -47,7 +47,7 @@ public class CrystalGeodeSurroundingBlockBlock extends AltestModElements.ModElem
 	public static final Block block = null;
 
 	public CrystalGeodeSurroundingBlockBlock(AltestModElements instance) {
-		super(instance, 195);
+		super(instance, 204);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

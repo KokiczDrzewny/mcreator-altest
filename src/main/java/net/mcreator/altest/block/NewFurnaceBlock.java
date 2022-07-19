@@ -85,7 +85,7 @@ public class NewFurnaceBlock extends AltestModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public NewFurnaceBlock(AltestModElements instance) {
-		super(instance, 810);
+		super(instance, 283);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

@@ -39,7 +39,7 @@ public class CCCCCCCCCCcBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CCCCCCCCCCcBlock(AltestModElements instance) {
-		super(instance, 252);
+		super(instance, 265);
 	}
 
 	@Override

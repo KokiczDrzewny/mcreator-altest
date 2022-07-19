@@ -26,7 +26,7 @@ public class GreenLightBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GreenLightBlockBlock(AltestModElements instance) {
-		super(instance, 259);
+		super(instance, 272);
 	}
 
 	@Override

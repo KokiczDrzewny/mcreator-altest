@@ -30,7 +30,7 @@ public class TopazArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public TopazArmorItem(AltestModElements instance) {
-		super(instance, 70);
+		super(instance, 69);
 	}
 
 	@Override

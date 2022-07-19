@@ -27,7 +27,7 @@ public class SpringleavesBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SpringleavesBlock(AltestModElements instance) {
-		super(instance, 227);
+		super(instance, 240);
 	}
 
 	@Override

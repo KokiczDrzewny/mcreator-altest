@@ -28,7 +28,7 @@ public class GalaxyStairsBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GalaxyStairsBlock(AltestModElements instance) {
-		super(instance, 91);
+		super(instance, 90);
 	}
 
 	@Override

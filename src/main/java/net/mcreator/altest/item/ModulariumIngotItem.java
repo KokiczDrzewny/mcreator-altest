@@ -18,7 +18,7 @@ public class ModulariumIngotItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ModulariumIngotItem(AltestModElements instance) {
-		super(instance, 322);
+		super(instance, 314);
 	}
 
 	@Override

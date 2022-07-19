@@ -18,7 +18,7 @@ public class ColdItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ColdItem(AltestModElements instance) {
-		super(instance, 283);
+		super(instance, 300);
 	}
 
 	@Override

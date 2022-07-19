@@ -34,7 +34,7 @@ public class QuickLookMenuKeyBinding extends AltestModElements.ModElement {
 	private KeyBinding keys;
 
 	public QuickLookMenuKeyBinding(AltestModElements instance) {
-		super(instance, 521);
+		super(instance, 575);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

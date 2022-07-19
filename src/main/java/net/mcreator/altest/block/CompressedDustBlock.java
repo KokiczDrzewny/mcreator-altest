@@ -22,7 +22,7 @@ public class CompressedDustBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CompressedDustBlock(AltestModElements instance) {
-		super(instance, 200);
+		super(instance, 209);
 	}
 
 	@Override

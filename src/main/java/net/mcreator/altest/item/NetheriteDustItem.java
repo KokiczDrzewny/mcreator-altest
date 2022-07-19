@@ -18,7 +18,7 @@ public class NetheriteDustItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public NetheriteDustItem(AltestModElements instance) {
-		super(instance, 850);
+		super(instance, 373);
 	}
 
 	@Override

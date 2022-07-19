@@ -56,7 +56,7 @@ public class LightBlueFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public LightBlueFlowerBlock(AltestModElements instance) {
-		super(instance, 242);
+		super(instance, 255);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

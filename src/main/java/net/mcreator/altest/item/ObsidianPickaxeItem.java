@@ -19,7 +19,7 @@ public class ObsidianPickaxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ObsidianPickaxeItem(AltestModElements instance) {
-		super(instance, 37);
+		super(instance, 36);
 	}
 
 	@Override

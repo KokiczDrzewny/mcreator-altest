@@ -41,7 +41,7 @@ public class Backpack2UIGui extends AltestModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public Backpack2UIGui(AltestModElements instance) {
-		super(instance, 794);
+		super(instance, 826);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

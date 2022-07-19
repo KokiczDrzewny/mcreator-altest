@@ -47,7 +47,7 @@ public class OceanicSandStoneBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public OceanicSandStoneBlock(AltestModElements instance) {
-		super(instance, 176);
+		super(instance, 185);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

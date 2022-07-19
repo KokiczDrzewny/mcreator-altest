@@ -28,7 +28,7 @@ public class CherryFenceGateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CherryFenceGateBlock(AltestModElements instance) {
-		super(instance, 209);
+		super(instance, 222);
 	}
 
 	@Override

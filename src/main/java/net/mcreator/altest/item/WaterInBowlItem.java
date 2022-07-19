@@ -28,7 +28,7 @@ public class WaterInBowlItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public WaterInBowlItem(AltestModElements instance) {
-		super(instance, 346);
+		super(instance, 413);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class WaterInBowlItem extends AltestModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(1).saturation(0.5f).setAlwaysEdible().build()));
 			setRegistryName("water_in_bowl");
 		}

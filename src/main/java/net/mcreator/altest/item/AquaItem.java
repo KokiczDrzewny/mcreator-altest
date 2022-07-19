@@ -17,7 +17,7 @@ public class AquaItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public AquaItem(AltestModElements instance) {
-		super(instance, 308);
+		super(instance, 331);
 	}
 
 	@Override

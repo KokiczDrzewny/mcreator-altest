@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "altest:gear_mold"
+  },
+  "addition": {
+    "item": "altest:ruby"
+  },
+  "result": {
+    "item": "altest:ruby_gear"
+  }
+}

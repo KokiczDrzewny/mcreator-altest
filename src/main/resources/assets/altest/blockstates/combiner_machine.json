@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "altest:block/combiner_machine"
+    },
+    "facing=east": {
+      "model": "altest:block/combiner_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "altest:block/combiner_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "altest:block/combiner_machine",
+      "y": 270
+    }
+  }
+}

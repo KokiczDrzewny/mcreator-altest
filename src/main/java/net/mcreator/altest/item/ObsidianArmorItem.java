@@ -31,7 +31,7 @@ public class ObsidianArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public ObsidianArmorItem(AltestModElements instance) {
-		super(instance, 76);
+		super(instance, 75);
 	}
 
 	@Override

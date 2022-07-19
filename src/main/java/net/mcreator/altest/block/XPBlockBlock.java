@@ -27,7 +27,7 @@ public class XPBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public XPBlockBlock(AltestModElements instance) {
-		super(instance, 96);
+		super(instance, 95);
 	}
 
 	@Override

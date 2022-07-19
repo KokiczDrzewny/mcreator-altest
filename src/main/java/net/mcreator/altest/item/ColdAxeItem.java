@@ -18,7 +18,7 @@ public class ColdAxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ColdAxeItem(AltestModElements instance) {
-		super(instance, 10);
+		super(instance, 9);
 	}
 
 	@Override

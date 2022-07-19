@@ -24,7 +24,7 @@ public class CheeseItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public CheeseItem(AltestModElements instance) {
-		super(instance, 347);
+		super(instance, 414);
 	}
 
 	@Override

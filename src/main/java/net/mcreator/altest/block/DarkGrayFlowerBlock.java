@@ -56,7 +56,7 @@ public class DarkGrayFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public DarkGrayFlowerBlock(AltestModElements instance) {
-		super(instance, 248);
+		super(instance, 261);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

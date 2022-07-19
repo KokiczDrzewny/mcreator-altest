@@ -48,7 +48,7 @@ public class TNTCrateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public TNTCrateBlock(AltestModElements instance) {
-		super(instance, 184);
+		super(instance, 193);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

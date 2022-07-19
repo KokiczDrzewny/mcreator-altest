@@ -54,7 +54,7 @@ public class AltestLuckyBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AltestLuckyBlockBlock(AltestModElements instance) {
-		super(instance, 187);
+		super(instance, 196);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -35,7 +35,7 @@ public class UraniumBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public UraniumBlockBlock(AltestModElements instance) {
-		super(instance, 841);
+		super(instance, 212);
 	}
 
 	@Override

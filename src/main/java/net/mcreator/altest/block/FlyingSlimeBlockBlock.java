@@ -31,7 +31,7 @@ public class FlyingSlimeBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public FlyingSlimeBlockBlock(AltestModElements instance) {
-		super(instance, 194);
+		super(instance, 203);
 	}
 
 	@Override

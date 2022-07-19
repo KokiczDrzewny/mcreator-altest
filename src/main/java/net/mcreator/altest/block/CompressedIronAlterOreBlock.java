@@ -51,7 +51,7 @@ public class CompressedIronAlterOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CompressedIronAlterOreBlock(AltestModElements instance) {
-		super(instance, 115);
+		super(instance, 124);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

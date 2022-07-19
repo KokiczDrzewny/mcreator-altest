@@ -18,7 +18,7 @@ public class EnderiteDustItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EnderiteDustItem(AltestModElements instance) {
-		super(instance, 849);
+		super(instance, 372);
 	}
 
 	@Override

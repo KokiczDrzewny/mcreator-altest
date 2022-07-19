@@ -49,7 +49,7 @@ public class AmberOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AmberOreBlock(AltestModElements instance) {
-		super(instance, 109);
+		super(instance, 108);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

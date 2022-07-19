@@ -18,7 +18,7 @@ public class CopperDustItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public CopperDustItem(AltestModElements instance) {
-		super(instance, 878);
+		super(instance, 378);
 	}
 
 	@Override

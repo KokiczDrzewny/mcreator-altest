@@ -49,7 +49,7 @@ public class RubyOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public RubyOreBlock(AltestModElements instance) {
-		super(instance, 101);
+		super(instance, 100);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

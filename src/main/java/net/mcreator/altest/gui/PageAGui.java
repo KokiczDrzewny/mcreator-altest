@@ -38,7 +38,7 @@ public class PageAGui extends AltestModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public PageAGui(AltestModElements instance) {
-		super(instance, 723);
+		super(instance, 764);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

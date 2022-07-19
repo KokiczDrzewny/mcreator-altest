@@ -48,7 +48,7 @@ public class ColdOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public ColdOreBlock(AltestModElements instance) {
-		super(instance, 116);
+		super(instance, 125);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

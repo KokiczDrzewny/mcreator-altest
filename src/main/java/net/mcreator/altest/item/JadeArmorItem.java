@@ -30,7 +30,7 @@ public class JadeArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public JadeArmorItem(AltestModElements instance) {
-		super(instance, 72);
+		super(instance, 71);
 	}
 
 	@Override

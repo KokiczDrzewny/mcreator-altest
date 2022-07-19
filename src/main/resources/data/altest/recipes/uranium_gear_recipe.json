@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "altest:gear_mold"
+  },
+  "addition": {
+    "item": "altest:uranium_ingot"
+  },
+  "result": {
+    "item": "altest:uranium_gear"
+  }
+}

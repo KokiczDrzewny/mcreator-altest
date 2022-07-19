@@ -57,7 +57,7 @@ public class PlantBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public PlantBlock(AltestModElements instance) {
-		super(instance, 232);
+		super(instance, 245);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

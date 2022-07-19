@@ -27,7 +27,7 @@ public class AmberBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AmberBlockBlock(AltestModElements instance) {
-		super(instance, 110);
+		super(instance, 109);
 	}
 
 	@Override

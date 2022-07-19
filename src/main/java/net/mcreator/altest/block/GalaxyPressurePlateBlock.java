@@ -28,7 +28,7 @@ public class GalaxyPressurePlateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GalaxyPressurePlateBlock(AltestModElements instance) {
-		super(instance, 217);
+		super(instance, 230);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class RosolekZKuryItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public RosolekZKuryItem(AltestModElements instance) {
-		super(instance, 345);
+		super(instance, 412);
 	}
 
 	@Override

@@ -8,7 +8,7 @@
     "name": "Energy Meter",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Energy"
+      "value": "TOOLS"
     },
     "stackSize": 1,
     "enchantability": 0,

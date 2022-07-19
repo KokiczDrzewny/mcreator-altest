@@ -17,7 +17,7 @@ public class AutoIgniteEnchantment extends AltestModElements.ModElement {
 	public static final Enchantment enchantment = null;
 
 	public AutoIgniteEnchantment(AltestModElements instance) {
-		super(instance, 803);
+		super(instance, 832);
 	}
 
 	@Override

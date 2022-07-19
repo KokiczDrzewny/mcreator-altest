@@ -49,7 +49,7 @@ public class ElecticOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public ElecticOreBlock(AltestModElements instance) {
-		super(instance, 858);
+		super(instance, 120);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

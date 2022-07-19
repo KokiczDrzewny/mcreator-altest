@@ -18,7 +18,7 @@ public class Coin20Item extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public Coin20Item(AltestModElements instance) {
-		super(instance, 338);
+		super(instance, 359);
 	}
 
 	@Override

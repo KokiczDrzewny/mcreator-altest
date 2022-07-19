@@ -65,7 +65,7 @@ public class ExplodingZGUITNTBlock extends AltestModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public ExplodingZGUITNTBlock(AltestModElements instance) {
-		super(instance, 272);
+		super(instance, 289);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

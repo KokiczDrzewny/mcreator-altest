@@ -38,7 +38,7 @@ public class CrateHillsBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public CrateHillsBiome(AltestModElements instance) {
-		super(instance, 606);
+		super(instance, 658);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

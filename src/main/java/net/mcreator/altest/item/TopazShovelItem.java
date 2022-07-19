@@ -18,7 +18,7 @@ public class TopazShovelItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public TopazShovelItem(AltestModElements instance) {
-		super(instance, 27);
+		super(instance, 26);
 	}
 
 	@Override

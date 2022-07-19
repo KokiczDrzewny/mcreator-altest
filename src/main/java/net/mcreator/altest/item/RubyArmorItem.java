@@ -30,7 +30,7 @@ public class RubyArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public RubyArmorItem(AltestModElements instance) {
-		super(instance, 68);
+		super(instance, 67);
 	}
 
 	@Override

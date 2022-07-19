@@ -18,7 +18,7 @@ public class AmethystPickaxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public AmethystPickaxeItem(AltestModElements instance) {
-		super(instance, 13);
+		super(instance, 12);
 	}
 
 	@Override

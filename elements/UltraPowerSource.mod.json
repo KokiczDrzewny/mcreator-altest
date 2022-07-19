@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Energy"
+      "value": "DECORATIONS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

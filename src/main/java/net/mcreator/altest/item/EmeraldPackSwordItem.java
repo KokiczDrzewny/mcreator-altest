@@ -19,7 +19,7 @@ public class EmeraldPackSwordItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EmeraldPackSwordItem(AltestModElements instance) {
-		super(instance, 57);
+		super(instance, 56);
 	}
 
 	@Override

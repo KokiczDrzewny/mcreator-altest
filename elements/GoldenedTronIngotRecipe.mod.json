@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
@@ -22,7 +22,7 @@
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": "CUSTOM:Infuser"
+        "value": "CUSTOM:InfuserNew"
       },
       {
         "value": "Items.GOLD_NUGGET"

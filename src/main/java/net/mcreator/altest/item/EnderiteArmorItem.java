@@ -30,7 +30,7 @@ public class EnderiteArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public EnderiteArmorItem(AltestModElements instance) {
-		super(instance, 74);
+		super(instance, 73);
 	}
 
 	@Override

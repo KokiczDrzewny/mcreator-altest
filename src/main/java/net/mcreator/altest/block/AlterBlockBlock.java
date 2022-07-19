@@ -27,7 +27,7 @@ public class AlterBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AlterBlockBlock(AltestModElements instance) {
-		super(instance, 118);
+		super(instance, 127);
 	}
 
 	@Override

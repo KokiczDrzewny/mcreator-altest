@@ -18,7 +18,7 @@ public class JadeShovelItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public JadeShovelItem(AltestModElements instance) {
-		super(instance, 31);
+		super(instance, 30);
 	}
 
 	@Override

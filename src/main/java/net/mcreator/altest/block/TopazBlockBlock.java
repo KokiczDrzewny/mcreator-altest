@@ -27,7 +27,7 @@ public class TopazBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public TopazBlockBlock(AltestModElements instance) {
-		super(instance, 106);
+		super(instance, 105);
 	}
 
 	@Override

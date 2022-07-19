@@ -39,7 +39,7 @@ public class PlainsBirchCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public PlainsBirchCBiome(AltestModElements instance) {
-		super(instance, 601);
+		super(instance, 653);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

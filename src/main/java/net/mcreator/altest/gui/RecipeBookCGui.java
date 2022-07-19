@@ -37,7 +37,7 @@ public class RecipeBookCGui extends AltestModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public RecipeBookCGui(AltestModElements instance) {
-		super(instance, 715);
+		super(instance, 756);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

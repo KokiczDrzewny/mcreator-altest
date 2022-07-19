@@ -17,7 +17,7 @@ public class MicrophoneItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public MicrophoneItem(AltestModElements instance) {
-		super(instance, 310);
+		super(instance, 333);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class LGrayLightBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public LGrayLightBlockBlock(AltestModElements instance) {
-		super(instance, 267);
+		super(instance, 280);
 	}
 
 	@Override

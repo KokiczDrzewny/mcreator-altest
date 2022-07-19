@@ -18,7 +18,7 @@ public class EnderiteIngotItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EnderiteIngotItem(AltestModElements instance) {
-		super(instance, 288);
+		super(instance, 306);
 	}
 
 	@Override

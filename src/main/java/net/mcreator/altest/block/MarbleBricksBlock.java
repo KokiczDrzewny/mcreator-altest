@@ -26,7 +26,7 @@ public class MarbleBricksBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MarbleBricksBlock(AltestModElements instance) {
-		super(instance, 148);
+		super(instance, 157);
 	}
 
 	@Override

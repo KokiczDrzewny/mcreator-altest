@@ -27,7 +27,7 @@ public class DirtSlabBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public DirtSlabBlock(AltestModElements instance) {
-		super(instance, 186);
+		super(instance, 195);
 	}
 
 	@Override

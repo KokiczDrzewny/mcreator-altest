@@ -24,7 +24,7 @@ public class HeartItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public HeartItem(AltestModElements instance) {
-		super(instance, 805);
+		super(instance, 367);
 	}
 
 	@Override

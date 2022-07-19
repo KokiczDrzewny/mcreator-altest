@@ -49,7 +49,7 @@ public class AmethystOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AmethystOreBlock(AltestModElements instance) {
-		super(instance, 99);
+		super(instance, 98);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

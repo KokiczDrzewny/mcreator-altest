@@ -1,19 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    " 1 ",
+    " 4 ",
+    "678"
   ],
   "key": {
-    "0": {
+    "1": {
       "item": "altest:cotton"
     },
-    "1": {
+    "4": {
       "item": "altest:battery"
     },
-    "2": {
+    "6": {
+      "item": "altest:redstone_gear"
+    },
+    "7": {
       "item": "altest:machine_case"
+    },
+    "8": {
+      "item": "altest:redstone_gear"
     }
   },
   "result": {

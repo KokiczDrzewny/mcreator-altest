@@ -18,7 +18,7 @@ public class RubyPickaxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public RubyPickaxeItem(AltestModElements instance) {
-		super(instance, 21);
+		super(instance, 20);
 	}
 
 	@Override

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/alloy_side",
+    "up": "altest:blocks/alloy_side",
+    "north": "altest:blocks/alloy_front",
+    "east": "altest:blocks/alloy_side",
+    "south": "altest:blocks/alloy_side",
+    "west": "altest:blocks/alloy_side",
+    "particle": "altest:blocks/alloy_side"
+  }
+}

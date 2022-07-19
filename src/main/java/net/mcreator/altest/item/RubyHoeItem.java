@@ -18,7 +18,7 @@ public class RubyHoeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public RubyHoeItem(AltestModElements instance) {
-		super(instance, 24);
+		super(instance, 23);
 	}
 
 	@Override

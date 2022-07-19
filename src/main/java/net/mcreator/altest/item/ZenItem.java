@@ -17,7 +17,7 @@ public class ZenItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ZenItem(AltestModElements instance) {
-		super(instance, 307);
+		super(instance, 330);
 	}
 
 	@Override

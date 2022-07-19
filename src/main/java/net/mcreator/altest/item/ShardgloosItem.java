@@ -18,7 +18,7 @@ public class ShardgloosItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ShardgloosItem(AltestModElements instance) {
-		super(instance, 312);
+		super(instance, 335);
 	}
 
 	@Override

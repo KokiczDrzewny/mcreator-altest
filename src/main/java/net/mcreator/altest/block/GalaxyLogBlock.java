@@ -33,7 +33,7 @@ public class GalaxyLogBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GalaxyLogBlock(AltestModElements instance) {
-		super(instance, 89);
+		super(instance, 88);
 	}
 
 	@Override

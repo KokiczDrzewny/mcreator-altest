@@ -57,7 +57,7 @@ public class FluffyFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public FluffyFlowerBlock(AltestModElements instance) {
-		super(instance, 234);
+		super(instance, 247);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

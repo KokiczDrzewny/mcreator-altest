@@ -18,7 +18,7 @@ public class DirtPowderItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public DirtPowderItem(AltestModElements instance) {
-		super(instance, 325);
+		super(instance, 346);
 	}
 
 	@Override

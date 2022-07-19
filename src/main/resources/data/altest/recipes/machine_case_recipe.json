@@ -1,25 +1,37 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "012",
     "345",
-    " 7 "
+    "678"
   ],
   "key": {
+    "0": {
+      "item": "minecraft:glass"
+    },
     "1": {
-      "item": "altest:modularium_ingot"
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:glass"
     },
     "3": {
-      "item": "altest:modularium_ingot"
+      "item": "minecraft:iron_ingot"
     },
     "4": {
-      "item": "minecraft:redstone_block"
+      "item": "altest:iron_gear"
     },
     "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
       "item": "altest:modularium_ingot"
     },
     "7": {
-      "item": "altest:electrocopper_ingot"
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "altest:modularium_ingot"
     }
   },
   "result": {

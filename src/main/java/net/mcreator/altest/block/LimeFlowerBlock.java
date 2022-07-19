@@ -56,7 +56,7 @@ public class LimeFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public LimeFlowerBlock(AltestModElements instance) {
-		super(instance, 239);
+		super(instance, 252);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

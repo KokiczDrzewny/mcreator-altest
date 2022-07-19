@@ -18,7 +18,7 @@ public class GameItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public GameItem(AltestModElements instance) {
-		super(instance, 306);
+		super(instance, 329);
 	}
 
 	@Override

@@ -8,7 +8,7 @@
     "name": "Goldened Wire",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Energy"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,

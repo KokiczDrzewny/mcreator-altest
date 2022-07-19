@@ -18,7 +18,7 @@ public class GoldPowderItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public GoldPowderItem(AltestModElements instance) {
-		super(instance, 330);
+		super(instance, 351);
 	}
 
 	@Override

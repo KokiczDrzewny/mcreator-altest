@@ -18,7 +18,7 @@ public class MenuItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public MenuItem(AltestModElements instance) {
-		super(instance, 304);
+		super(instance, 327);
 	}
 
 	@Override

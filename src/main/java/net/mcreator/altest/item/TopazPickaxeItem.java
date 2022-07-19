@@ -18,7 +18,7 @@ public class TopazPickaxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public TopazPickaxeItem(AltestModElements instance) {
-		super(instance, 25);
+		super(instance, 24);
 	}
 
 	@Override

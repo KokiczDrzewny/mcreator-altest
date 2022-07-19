@@ -18,7 +18,7 @@ public class DiamondPoweredCoalItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public DiamondPoweredCoalItem(AltestModElements instance) {
-		super(instance, 300);
+		super(instance, 325);
 	}
 
 	@Override

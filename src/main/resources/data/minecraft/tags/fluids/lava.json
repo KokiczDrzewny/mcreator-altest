@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "altest:molten_iron",
+    "altest:molten_iron_flowing"
+  ]
 }

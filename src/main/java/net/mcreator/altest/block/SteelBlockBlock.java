@@ -26,7 +26,7 @@ public class SteelBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SteelBlockBlock(AltestModElements instance) {
-		super(instance, 113);
+		super(instance, 122);
 	}
 
 	@Override

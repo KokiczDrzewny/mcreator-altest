@@ -56,7 +56,7 @@ public class OrangeFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public OrangeFlowerBlock(AltestModElements instance) {
-		super(instance, 237);
+		super(instance, 250);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

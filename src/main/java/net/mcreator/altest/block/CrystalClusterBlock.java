@@ -38,7 +38,7 @@ public class CrystalClusterBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CrystalClusterBlock(AltestModElements instance) {
-		super(instance, 251);
+		super(instance, 264);
 	}
 
 	@Override

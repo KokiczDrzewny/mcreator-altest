@@ -48,7 +48,7 @@ public class SilverOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SilverOreBlock(AltestModElements instance) {
-		super(instance, 97);
+		super(instance, 96);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

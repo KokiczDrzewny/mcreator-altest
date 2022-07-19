@@ -27,7 +27,7 @@ public class TestBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public TestBlock(AltestModElements instance) {
-		super(instance, 55);
+		super(instance, 54);
 	}
 
 	@Override

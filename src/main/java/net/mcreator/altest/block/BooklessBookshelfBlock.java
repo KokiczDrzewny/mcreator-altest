@@ -27,7 +27,7 @@ public class BooklessBookshelfBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public BooklessBookshelfBlock(AltestModElements instance) {
-		super(instance, 190);
+		super(instance, 199);
 	}
 
 	@Override

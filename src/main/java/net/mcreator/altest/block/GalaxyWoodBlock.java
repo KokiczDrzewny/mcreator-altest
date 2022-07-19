@@ -33,7 +33,7 @@ public class GalaxyWoodBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GalaxyWoodBlock(AltestModElements instance) {
-		super(instance, 88);
+		super(instance, 87);
 	}
 
 	@Override

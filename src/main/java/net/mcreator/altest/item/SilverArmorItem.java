@@ -30,7 +30,7 @@ public class SilverArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public SilverArmorItem(AltestModElements instance) {
-		super(instance, 60);
+		super(instance, 59);
 	}
 
 	@Override

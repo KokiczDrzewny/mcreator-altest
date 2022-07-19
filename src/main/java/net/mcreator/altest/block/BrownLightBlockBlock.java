@@ -26,7 +26,7 @@ public class BrownLightBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public BrownLightBlockBlock(AltestModElements instance) {
-		super(instance, 254);
+		super(instance, 267);
 	}
 
 	@Override

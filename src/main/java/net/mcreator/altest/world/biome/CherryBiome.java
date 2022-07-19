@@ -49,7 +49,7 @@ public class CherryBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public CherryBiome(AltestModElements instance) {
-		super(instance, 389);
+		super(instance, 454);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

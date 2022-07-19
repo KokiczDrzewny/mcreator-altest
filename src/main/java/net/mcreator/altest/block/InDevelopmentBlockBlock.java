@@ -26,7 +26,7 @@ public class InDevelopmentBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public InDevelopmentBlockBlock(AltestModElements instance) {
-		super(instance, 53);
+		super(instance, 52);
 	}
 
 	@Override

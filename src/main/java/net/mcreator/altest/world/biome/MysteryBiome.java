@@ -61,7 +61,7 @@ public class MysteryBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public MysteryBiome(AltestModElements instance) {
-		super(instance, 432);
+		super(instance, 489);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

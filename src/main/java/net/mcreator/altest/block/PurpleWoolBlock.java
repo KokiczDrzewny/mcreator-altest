@@ -26,7 +26,7 @@ public class PurpleWoolBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public PurpleWoolBlock(AltestModElements instance) {
-		super(instance, 134);
+		super(instance, 143);
 	}
 
 	@Override

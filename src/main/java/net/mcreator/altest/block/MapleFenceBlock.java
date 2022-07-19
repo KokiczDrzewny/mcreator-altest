@@ -29,7 +29,7 @@ public class MapleFenceBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MapleFenceBlock(AltestModElements instance) {
-		super(instance, 224);
+		super(instance, 237);
 	}
 
 	@Override

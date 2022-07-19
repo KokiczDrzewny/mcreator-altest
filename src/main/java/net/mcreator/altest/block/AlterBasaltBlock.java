@@ -46,7 +46,7 @@ public class AlterBasaltBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AlterBasaltBlock(AltestModElements instance) {
-		super(instance, 120);
+		super(instance, 129);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

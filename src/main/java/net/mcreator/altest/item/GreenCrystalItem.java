@@ -24,7 +24,7 @@ public class GreenCrystalItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public GreenCrystalItem(AltestModElements instance) {
-		super(instance, 277);
+		super(instance, 294);
 	}
 
 	@Override

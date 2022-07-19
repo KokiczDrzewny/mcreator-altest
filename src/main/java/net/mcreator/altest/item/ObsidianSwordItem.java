@@ -19,7 +19,7 @@ public class ObsidianSwordItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ObsidianSwordItem(AltestModElements instance) {
-		super(instance, 75);
+		super(instance, 74);
 	}
 
 	@Override

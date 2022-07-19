@@ -18,7 +18,7 @@ public class SushiItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public SushiItem(AltestModElements instance) {
-		super(instance, 343);
+		super(instance, 410);
 	}
 
 	@Override

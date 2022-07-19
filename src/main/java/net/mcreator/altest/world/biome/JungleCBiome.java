@@ -58,7 +58,7 @@ public class JungleCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public JungleCBiome(AltestModElements instance) {
-		super(instance, 598);
+		super(instance, 650);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

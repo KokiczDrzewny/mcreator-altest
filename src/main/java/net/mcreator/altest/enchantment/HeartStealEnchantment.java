@@ -17,7 +17,7 @@ public class HeartStealEnchantment extends AltestModElements.ModElement {
 	public static final Enchantment enchantment = null;
 
 	public HeartStealEnchantment(AltestModElements instance) {
-		super(instance, 807);
+		super(instance, 835);
 	}
 
 	@Override

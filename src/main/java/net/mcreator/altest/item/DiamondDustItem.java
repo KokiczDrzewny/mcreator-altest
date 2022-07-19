@@ -18,7 +18,7 @@ public class DiamondDustItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public DiamondDustItem(AltestModElements instance) {
-		super(instance, 846);
+		super(instance, 369);
 	}
 
 	@Override

@@ -35,7 +35,7 @@ public class ElecticBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public ElecticBlockBlock(AltestModElements instance) {
-		super(instance, 859);
+		super(instance, 121);
 	}
 
 	@Override

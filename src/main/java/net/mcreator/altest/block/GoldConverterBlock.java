@@ -67,7 +67,7 @@ public class GoldConverterBlock extends AltestModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public GoldConverterBlock(AltestModElements instance) {
-		super(instance, 178);
+		super(instance, 187);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

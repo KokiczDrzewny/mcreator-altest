@@ -10,6 +10,7 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -18,7 +19,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.altest.procedures.SolarPanelUpdateTickProcedure;
-import net.mcreator.altest.itemgroup.EnergyItemGroup;
 import net.mcreator.altest.AltestModElements;
 
 import java.util.stream.Stream;
@@ -35,13 +35,13 @@ public class SolarPanelBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SolarPanelBlock(AltestModElements instance) {
-		super(instance, 201);
+		super(instance, 215);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(EnergyItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
 	}
 
 	public static class CustomBlock extends Block {

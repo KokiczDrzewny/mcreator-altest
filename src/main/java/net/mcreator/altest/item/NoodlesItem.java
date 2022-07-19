@@ -22,7 +22,7 @@ public class NoodlesItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public NoodlesItem(AltestModElements instance) {
-		super(instance, 344);
+		super(instance, 411);
 	}
 
 	@Override

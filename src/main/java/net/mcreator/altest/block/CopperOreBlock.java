@@ -49,7 +49,7 @@ public class CopperOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CopperOreBlock(AltestModElements instance) {
-		super(instance, 873);
+		super(instance, 118);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

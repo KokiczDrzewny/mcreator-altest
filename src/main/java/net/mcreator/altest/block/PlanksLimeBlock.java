@@ -28,7 +28,7 @@ public class PlanksLimeBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public PlanksLimeBlock(AltestModElements instance) {
-		super(instance, 162);
+		super(instance, 171);
 	}
 
 	@Override

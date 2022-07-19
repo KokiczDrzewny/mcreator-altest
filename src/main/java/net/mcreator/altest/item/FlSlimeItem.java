@@ -44,7 +44,7 @@ public class FlSlimeItem extends AltestModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_fl_slime").setRegistryName("projectile_fl_slime");
 
 	public FlSlimeItem(AltestModElements instance) {
-		super(instance, 56);
+		super(instance, 55);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FlSlimeRenderer.ModelRegisterHandler());
 	}
 

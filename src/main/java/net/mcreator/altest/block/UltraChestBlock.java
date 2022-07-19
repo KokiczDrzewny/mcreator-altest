@@ -67,7 +67,7 @@ public class UltraChestBlock extends AltestModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public UltraChestBlock(AltestModElements instance) {
-		super(instance, 219);
+		super(instance, 232);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

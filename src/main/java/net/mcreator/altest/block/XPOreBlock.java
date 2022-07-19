@@ -49,7 +49,7 @@ public class XPOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public XPOreBlock(AltestModElements instance) {
-		super(instance, 95);
+		super(instance, 94);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

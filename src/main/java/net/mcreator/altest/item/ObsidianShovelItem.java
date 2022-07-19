@@ -19,7 +19,7 @@ public class ObsidianShovelItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ObsidianShovelItem(AltestModElements instance) {
-		super(instance, 39);
+		super(instance, 38);
 	}
 
 	@Override

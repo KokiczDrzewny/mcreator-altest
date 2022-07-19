@@ -19,7 +19,7 @@ public class EmeraldPackAxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EmeraldPackAxeItem(AltestModElements instance) {
-		super(instance, 2);
+		super(instance, 1);
 	}
 
 	@Override

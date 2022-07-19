@@ -26,7 +26,7 @@ public class GrassSlabBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GrassSlabBlock(AltestModElements instance) {
-		super(instance, 185);
+		super(instance, 194);
 	}
 
 	@Override

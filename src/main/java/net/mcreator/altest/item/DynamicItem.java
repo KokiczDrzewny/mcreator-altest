@@ -17,7 +17,7 @@ public class DynamicItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public DynamicItem(AltestModElements instance) {
-		super(instance, 311);
+		super(instance, 334);
 	}
 
 	@Override

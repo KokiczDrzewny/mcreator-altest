@@ -17,7 +17,7 @@ public class JumpItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public JumpItem(AltestModElements instance) {
-		super(instance, 309);
+		super(instance, 332);
 	}
 
 	@Override

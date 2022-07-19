@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "altest:blocks/melter_side",
+    "up": "altest:blocks/melter_side",
+    "north": "altest:blocks/melter_front",
+    "east": "altest:blocks/melter_side",
+    "south": "altest:blocks/melter_side",
+    "west": "altest:blocks/melter_side",
+    "particle": "altest:blocks/melter_side"
+  }
+}

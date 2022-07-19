@@ -28,7 +28,7 @@ public class CherryLeavesBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CherryLeavesBlock(AltestModElements instance) {
-		super(instance, 221);
+		super(instance, 234);
 	}
 
 	@Override

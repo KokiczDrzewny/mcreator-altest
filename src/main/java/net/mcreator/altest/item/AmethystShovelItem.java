@@ -18,7 +18,7 @@ public class AmethystShovelItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public AmethystShovelItem(AltestModElements instance) {
-		super(instance, 15);
+		super(instance, 14);
 	}
 
 	@Override

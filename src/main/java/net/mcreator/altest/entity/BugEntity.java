@@ -46,7 +46,7 @@ public class BugEntity extends AltestModElements.ModElement {
 			.size(0.4f, 0.3f)).build("bug").setRegistryName("bug");
 
 	public BugEntity(AltestModElements instance) {
-		super(instance, 316);
+		super(instance, 338);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BugRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

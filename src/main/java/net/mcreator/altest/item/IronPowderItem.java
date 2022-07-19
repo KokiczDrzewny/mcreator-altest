@@ -18,7 +18,7 @@ public class IronPowderItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public IronPowderItem(AltestModElements instance) {
-		super(instance, 329);
+		super(instance, 350);
 	}
 
 	@Override

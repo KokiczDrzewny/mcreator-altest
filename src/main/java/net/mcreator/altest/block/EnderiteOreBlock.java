@@ -48,7 +48,7 @@ public class EnderiteOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public EnderiteOreBlock(AltestModElements instance) {
-		super(instance, 111);
+		super(instance, 110);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -33,7 +33,7 @@ public class StoneHammerItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public StoneHammerItem(AltestModElements instance) {
-		super(instance, 47);
+		super(instance, 46);
 	}
 
 	@Override

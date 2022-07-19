@@ -27,7 +27,7 @@ public class EnderiteBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public EnderiteBlockBlock(AltestModElements instance) {
-		super(instance, 112);
+		super(instance, 111);
 	}
 
 	@Override

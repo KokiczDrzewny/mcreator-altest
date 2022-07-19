@@ -48,7 +48,7 @@ public class SlateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SlateBlock(AltestModElements instance) {
-		super(instance, 151);
+		super(instance, 160);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

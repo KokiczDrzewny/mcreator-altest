@@ -18,7 +18,7 @@ public class SilverHoeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public SilverHoeItem(AltestModElements instance) {
-		super(instance, 8);
+		super(instance, 7);
 	}
 
 	@Override

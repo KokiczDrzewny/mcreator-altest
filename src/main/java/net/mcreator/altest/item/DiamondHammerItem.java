@@ -33,7 +33,7 @@ public class DiamondHammerItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public DiamondHammerItem(AltestModElements instance) {
-		super(instance, 49);
+		super(instance, 48);
 	}
 
 	@Override

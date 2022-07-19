@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "altest:knife"
+    },
+    "4": {
+      "item": "altest:battery"
+    },
+    "6": {
+      "item": "altest:amethyst_gear"
+    },
+    "7": {
+      "item": "altest:machine_case"
+    },
+    "8": {
+      "item": "altest:amethyst_gear"
+    }
+  },
+  "result": {
+    "item": "altest:seperator_machine",
+    "count": 1
+  }
+}

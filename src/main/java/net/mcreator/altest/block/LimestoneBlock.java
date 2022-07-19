@@ -48,7 +48,7 @@ public class LimestoneBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public LimestoneBlock(AltestModElements instance) {
-		super(instance, 155);
+		super(instance, 164);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

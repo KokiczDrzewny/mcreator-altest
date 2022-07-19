@@ -40,7 +40,7 @@ public class DarkBiomeBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public DarkBiomeBiome(AltestModElements instance) {
-		super(instance, 534);
+		super(instance, 587);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

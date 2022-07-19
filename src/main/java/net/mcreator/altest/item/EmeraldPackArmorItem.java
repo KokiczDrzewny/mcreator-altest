@@ -31,7 +31,7 @@ public class EmeraldPackArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public EmeraldPackArmorItem(AltestModElements instance) {
-		super(instance, 58);
+		super(instance, 57);
 	}
 
 	@Override

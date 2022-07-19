@@ -2,42 +2,19 @@
   "_fv": 28,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CopperIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CopperIngot"
-      },
-      {
-        "value": "Items.GOLD_NUGGET"
-      },
-      {
-        "value": "CUSTOM:CopperIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CopperIngot"
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "smithingInputStack": {
+      "value": "CUSTOM:GearMold"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:CopperIngot"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:CopperGear"
     },
     "name": "copper_gear_recipe",

@@ -1,12 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "altest:custom/case",
   "textures": {
-    "down": "altest:blocks/case",
-    "up": "altest:blocks/case",
-    "north": "altest:blocks/case",
-    "east": "altest:blocks/case",
-    "south": "altest:blocks/case",
-    "west": "altest:blocks/case",
-    "particle": "altest:blocks/case"
+    "all": "altest:blocks/case",
+    "particle": "altest:blocks/case",
+    "2": "altest:blocks/case"
   }
 }

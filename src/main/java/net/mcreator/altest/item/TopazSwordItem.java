@@ -18,7 +18,7 @@ public class TopazSwordItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public TopazSwordItem(AltestModElements instance) {
-		super(instance, 69);
+		super(instance, 68);
 	}
 
 	@Override

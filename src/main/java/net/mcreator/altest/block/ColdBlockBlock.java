@@ -27,7 +27,7 @@ public class ColdBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public ColdBlockBlock(AltestModElements instance) {
-		super(instance, 117);
+		super(instance, 126);
 	}
 
 	@Override

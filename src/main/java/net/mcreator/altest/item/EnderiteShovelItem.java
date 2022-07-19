@@ -18,7 +18,7 @@ public class EnderiteShovelItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EnderiteShovelItem(AltestModElements instance) {
-		super(instance, 35);
+		super(instance, 34);
 	}
 
 	@Override

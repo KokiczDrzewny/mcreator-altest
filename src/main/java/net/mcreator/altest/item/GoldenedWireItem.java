@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.altest.itemgroup.EnergyItemGroup;
 import net.mcreator.altest.AltestModElements;
 
 @AltestModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class GoldenedWireItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public GoldenedWireItem(AltestModElements instance) {
-		super(instance, 826);
+		super(instance, 368);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class GoldenedWireItem extends AltestModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(EnergyItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("goldened_wire");
 		}
 

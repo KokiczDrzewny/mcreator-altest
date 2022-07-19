@@ -30,7 +30,7 @@ public class HeartStealerSwordItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public HeartStealerSwordItem(AltestModElements instance) {
-		super(instance, 806);
+		super(instance, 76);
 	}
 
 	@Override

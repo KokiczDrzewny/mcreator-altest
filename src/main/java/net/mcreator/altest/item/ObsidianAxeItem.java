@@ -19,7 +19,7 @@ public class ObsidianAxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ObsidianAxeItem(AltestModElements instance) {
-		super(instance, 38);
+		super(instance, 37);
 	}
 
 	@Override

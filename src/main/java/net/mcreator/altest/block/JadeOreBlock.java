@@ -49,7 +49,7 @@ public class JadeOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public JadeOreBlock(AltestModElements instance) {
-		super(instance, 107);
+		super(instance, 106);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

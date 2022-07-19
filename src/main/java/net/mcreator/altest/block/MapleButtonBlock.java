@@ -28,7 +28,7 @@ public class MapleButtonBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MapleButtonBlock(AltestModElements instance) {
-		super(instance, 215);
+		super(instance, 228);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class RawCompressedIronItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public RawCompressedIronItem(AltestModElements instance) {
-		super(instance, 293);
+		super(instance, 305);
 	}
 
 	@Override

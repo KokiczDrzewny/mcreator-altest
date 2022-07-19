@@ -18,7 +18,7 @@ public class ElectricDustItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ElectricDustItem(AltestModElements instance) {
-		super(instance, 865);
+		super(instance, 376);
 	}
 
 	@Override

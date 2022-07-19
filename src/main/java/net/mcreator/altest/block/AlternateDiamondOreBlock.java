@@ -49,7 +49,7 @@ public class AlternateDiamondOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AlternateDiamondOreBlock(AltestModElements instance) {
-		super(instance, 114);
+		super(instance, 123);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

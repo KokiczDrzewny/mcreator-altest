@@ -30,7 +30,7 @@ public class AmethystArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public AmethystArmorItem(AltestModElements instance) {
-		super(instance, 64);
+		super(instance, 63);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class PlanksGrayBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public PlanksGrayBlock(AltestModElements instance) {
-		super(instance, 172);
+		super(instance, 181);
 	}
 
 	@Override

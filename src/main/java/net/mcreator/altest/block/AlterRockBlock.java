@@ -46,7 +46,7 @@ public class AlterRockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AlterRockBlock(AltestModElements instance) {
-		super(instance, 122);
+		super(instance, 131);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

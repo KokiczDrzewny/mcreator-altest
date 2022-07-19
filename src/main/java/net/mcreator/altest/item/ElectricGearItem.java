@@ -18,7 +18,7 @@ public class ElectricGearItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ElectricGearItem(AltestModElements instance) {
-		super(instance, 863);
+		super(instance, 375);
 	}
 
 	@Override

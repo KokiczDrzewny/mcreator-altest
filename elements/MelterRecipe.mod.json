@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Battery"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GoldGear"
+      },
+      {
+        "value": "CUSTOM:MachineCase"
+      },
+      {
+        "value": "CUSTOM:GoldGear"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MelterMachine"
+    },
+    "name": "melter_recipe",
+    "namespace": "mod"
+  }
+}

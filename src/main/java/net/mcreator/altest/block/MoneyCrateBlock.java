@@ -21,7 +21,7 @@ public class MoneyCrateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MoneyCrateBlock(AltestModElements instance) {
-		super(instance, 799);
+		super(instance, 210);
 	}
 
 	@Override

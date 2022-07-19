@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "altest:gear_mold"
+  },
+  "addition": {
+    "item": "altest:sapphire"
+  },
+  "result": {
+    "item": "altest:sapphire_gear"
+  }
+}

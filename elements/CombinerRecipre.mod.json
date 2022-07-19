@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:InfuserNew"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Battery"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CopperGear"
+      },
+      {
+        "value": "CUSTOM:MachineCase"
+      },
+      {
+        "value": "CUSTOM:CopperGear"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CombinerMachine"
+    },
+    "name": "combiner_recipre",
+    "namespace": "mod"
+  }
+}

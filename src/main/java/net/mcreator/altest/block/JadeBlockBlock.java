@@ -27,7 +27,7 @@ public class JadeBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public JadeBlockBlock(AltestModElements instance) {
-		super(instance, 108);
+		super(instance, 107);
 	}
 
 	@Override

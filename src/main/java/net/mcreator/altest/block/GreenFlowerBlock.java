@@ -56,7 +56,7 @@ public class GreenFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GreenFlowerBlock(AltestModElements instance) {
-		super(instance, 240);
+		super(instance, 253);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -31,7 +31,7 @@ public class CherryTrapdoorBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CherryTrapdoorBlock(AltestModElements instance) {
-		super(instance, 212);
+		super(instance, 225);
 	}
 
 	@Override

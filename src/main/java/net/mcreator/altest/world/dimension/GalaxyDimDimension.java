@@ -78,7 +78,7 @@ public class GalaxyDimDimension extends AltestModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public GalaxyDimDimension(AltestModElements instance) {
-		super(instance, 45);
+		super(instance, 44);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

@@ -44,7 +44,7 @@ public class SavannaCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public SavannaCBiome(AltestModElements instance) {
-		super(instance, 599);
+		super(instance, 651);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

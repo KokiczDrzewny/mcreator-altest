@@ -38,7 +38,7 @@ public class RippedNetherCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public RippedNetherCBiome(AltestModElements instance) {
-		super(instance, 644);
+		super(instance, 694);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

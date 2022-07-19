@@ -58,7 +58,7 @@ public class CherrySaplingBlock extends AltestModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public CherrySaplingBlock(AltestModElements instance) {
-		super(instance, 220);
+		super(instance, 233);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

@@ -38,7 +38,7 @@ public class MaterialWallBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MaterialWallBlock(AltestModElements instance) {
-		super(instance, 814);
+		super(instance, 211);
 	}
 
 	@Override

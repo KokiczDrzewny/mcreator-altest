@@ -56,7 +56,7 @@ public class MagentaFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MagentaFlowerBlock(AltestModElements instance) {
-		super(instance, 245);
+		super(instance, 258);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

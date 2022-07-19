@@ -56,7 +56,7 @@ public class PinkFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public PinkFlowerBlock(AltestModElements instance) {
-		super(instance, 246);
+		super(instance, 259);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

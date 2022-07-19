@@ -19,7 +19,7 @@ public class EmeraldPackHoeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EmeraldPackHoeItem(AltestModElements instance) {
-		super(instance, 4);
+		super(instance, 3);
 	}
 
 	@Override

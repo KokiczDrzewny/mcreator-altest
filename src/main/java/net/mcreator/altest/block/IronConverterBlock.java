@@ -67,7 +67,7 @@ public class IronConverterBlock extends AltestModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public IronConverterBlock(AltestModElements instance) {
-		super(instance, 177);
+		super(instance, 186);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

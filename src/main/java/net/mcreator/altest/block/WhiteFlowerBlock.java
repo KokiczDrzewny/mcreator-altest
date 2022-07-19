@@ -56,7 +56,7 @@ public class WhiteFlowerBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public WhiteFlowerBlock(AltestModElements instance) {
-		super(instance, 250);
+		super(instance, 263);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

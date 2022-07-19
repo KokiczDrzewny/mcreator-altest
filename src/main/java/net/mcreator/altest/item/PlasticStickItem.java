@@ -18,7 +18,7 @@ public class PlasticStickItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public PlasticStickItem(AltestModElements instance) {
-		super(instance, 320);
+		super(instance, 342);
 	}
 
 	@Override

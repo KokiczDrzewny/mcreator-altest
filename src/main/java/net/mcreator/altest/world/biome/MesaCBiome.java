@@ -37,7 +37,7 @@ public class MesaCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public MesaCBiome(AltestModElements instance) {
-		super(instance, 603);
+		super(instance, 655);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

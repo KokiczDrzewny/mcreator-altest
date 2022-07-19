@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:piston"
+    },
+    "4": {
+      "item": "altest:battery"
+    },
+    "6": {
+      "item": "altest:ruby_gear"
+    },
+    "7": {
+      "item": "altest:machine_case"
+    },
+    "8": {
+      "item": "altest:ruby_gear"
+    }
+  },
+  "result": {
+    "item": "altest:pulverizer_machine",
+    "count": 1
+  }
+}

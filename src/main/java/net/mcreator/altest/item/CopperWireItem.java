@@ -18,7 +18,7 @@ public class CopperWireItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public CopperWireItem(AltestModElements instance) {
-		super(instance, 882);
+		super(instance, 380);
 	}
 
 	@Override

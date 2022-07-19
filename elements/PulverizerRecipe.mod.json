@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Battery"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RubyGear"
+      },
+      {
+        "value": "CUSTOM:MachineCase"
+      },
+      {
+        "value": "CUSTOM:RubyGear"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PulverizerMachine"
+    },
+    "name": "pulverizer_recipe",
+    "namespace": "mod"
+  }
+}

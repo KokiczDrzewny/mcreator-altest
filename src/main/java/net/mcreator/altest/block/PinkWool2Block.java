@@ -26,7 +26,7 @@ public class PinkWool2Block extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public PinkWool2Block(AltestModElements instance) {
-		super(instance, 137);
+		super(instance, 146);
 	}
 
 	@Override

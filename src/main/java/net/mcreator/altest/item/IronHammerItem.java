@@ -33,7 +33,7 @@ public class IronHammerItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public IronHammerItem(AltestModElements instance) {
-		super(instance, 48);
+		super(instance, 47);
 	}
 
 	@Override

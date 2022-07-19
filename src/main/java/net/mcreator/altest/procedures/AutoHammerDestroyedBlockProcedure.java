@@ -4,8 +4,11 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.altest.block.DustBlock;
@@ -126,31 +129,11 @@ public class AutoHammerDestroyedBlockProcedure {
 		}
 		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.SAND) {
 			world.destroyBlock(new BlockPos(x, y, z), false);
-			new Object() {
-				private int ticks = 0;
-				private float waitTicks;
-				private IWorld world;
-
-				public void start(IWorld world, int waitTicks) {
-					this.waitTicks = waitTicks;
-					MinecraftForge.EVENT_BUS.register(this);
-					this.world = world;
-				}
-
-				@SubscribeEvent
-				public void tick(TickEvent.ServerTickEvent event) {
-					if (event.phase == TickEvent.Phase.END) {
-						this.ticks += 1;
-						if (this.ticks >= this.waitTicks)
-							run();
-					}
-				}
-
-				private void run() {
-					world.setBlockState(new BlockPos(x, y, z), DustBlock.block.getDefaultState(), 3);
-					MinecraftForge.EVENT_BUS.unregister(this);
-				}
-			}.start(world, (int) 5);
+			if (world instanceof World && !world.isRemote()) {
+				ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(DustBlock.block));
+				entityToSpawn.setPickupDelay((int) 10);
+				world.addEntity(entityToSpawn);
+			}
 		}
 	}
 }

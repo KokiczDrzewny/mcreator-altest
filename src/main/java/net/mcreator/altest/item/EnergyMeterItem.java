@@ -11,12 +11,12 @@ import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.altest.procedures.EnergyMeterRightclickedProcedure;
-import net.mcreator.altest.itemgroup.EnergyItemGroup;
 import net.mcreator.altest.AltestModElements;
 
 import java.util.stream.Stream;
@@ -30,7 +30,7 @@ public class EnergyMeterItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EnergyMeterItem(AltestModElements instance) {
-		super(instance, 828);
+		super(instance, 220);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class EnergyMeterItem extends AltestModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(EnergyItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("energy_meter");
 		}
 

@@ -27,7 +27,7 @@ public class SummerleavesBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SummerleavesBlock(AltestModElements instance) {
-		super(instance, 228);
+		super(instance, 241);
 	}
 
 	@Override

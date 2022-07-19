@@ -28,7 +28,7 @@ public class SlateStairsBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SlateStairsBlock(AltestModElements instance) {
-		super(instance, 154);
+		super(instance, 163);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class PurpleCrystalItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public PurpleCrystalItem(AltestModElements instance) {
-		super(instance, 275);
+		super(instance, 292);
 	}
 
 	@Override

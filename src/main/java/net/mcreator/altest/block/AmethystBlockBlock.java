@@ -27,7 +27,7 @@ public class AmethystBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AmethystBlockBlock(AltestModElements instance) {
-		super(instance, 100);
+		super(instance, 99);
 	}
 
 	@Override

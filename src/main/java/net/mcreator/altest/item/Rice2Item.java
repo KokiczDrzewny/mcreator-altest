@@ -18,7 +18,7 @@ public class Rice2Item extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public Rice2Item(AltestModElements instance) {
-		super(instance, 321);
+		super(instance, 343);
 	}
 
 	@Override

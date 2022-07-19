@@ -18,7 +18,7 @@ public class ElecticIngotItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ElecticIngotItem(AltestModElements instance) {
-		super(instance, 857);
+		super(instance, 374);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class PlasticScrapItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public PlasticScrapItem(AltestModElements instance) {
-		super(instance, 319);
+		super(instance, 341);
 	}
 
 	@Override

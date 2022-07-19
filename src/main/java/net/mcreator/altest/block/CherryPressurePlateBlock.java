@@ -28,7 +28,7 @@ public class CherryPressurePlateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CherryPressurePlateBlock(AltestModElements instance) {
-		super(instance, 210);
+		super(instance, 223);
 	}
 
 	@Override

@@ -43,7 +43,7 @@ public class ForestCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public ForestCBiome(AltestModElements instance) {
-		super(instance, 642);
+		super(instance, 692);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

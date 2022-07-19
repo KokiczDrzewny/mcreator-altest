@@ -19,7 +19,7 @@ public class EmeraldPackShovelItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EmeraldPackShovelItem(AltestModElements instance) {
-		super(instance, 3);
+		super(instance, 2);
 	}
 
 	@Override

@@ -47,7 +47,7 @@ public class LooseBedrockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public LooseBedrockBlock(AltestModElements instance) {
-		super(instance, 196);
+		super(instance, 205);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

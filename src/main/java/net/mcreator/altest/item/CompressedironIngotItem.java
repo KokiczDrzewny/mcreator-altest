@@ -18,7 +18,7 @@ public class CompressedironIngotItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public CompressedironIngotItem(AltestModElements instance) {
-		super(instance, 294);
+		super(instance, 311);
 	}
 
 	@Override

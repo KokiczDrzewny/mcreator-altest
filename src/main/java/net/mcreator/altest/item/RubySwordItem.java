@@ -18,7 +18,7 @@ public class RubySwordItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public RubySwordItem(AltestModElements instance) {
-		super(instance, 67);
+		super(instance, 66);
 	}
 
 	@Override

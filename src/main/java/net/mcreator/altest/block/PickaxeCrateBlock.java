@@ -64,7 +64,7 @@ public class PickaxeCrateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public PickaxeCrateBlock(AltestModElements instance) {
-		super(instance, 183);
+		super(instance, 192);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

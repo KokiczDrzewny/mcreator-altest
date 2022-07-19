@@ -27,7 +27,7 @@ public class RubyBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public RubyBlockBlock(AltestModElements instance) {
-		super(instance, 102);
+		super(instance, 101);
 	}
 
 	@Override

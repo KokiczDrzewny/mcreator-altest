@@ -18,7 +18,7 @@ public class SandPowderItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public SandPowderItem(AltestModElements instance) {
-		super(instance, 327);
+		super(instance, 348);
 	}
 
 	@Override

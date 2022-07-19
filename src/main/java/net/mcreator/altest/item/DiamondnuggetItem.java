@@ -18,7 +18,7 @@ public class DiamondnuggetItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public DiamondnuggetItem(AltestModElements instance) {
-		super(instance, 273);
+		super(instance, 290);
 	}
 
 	@Override

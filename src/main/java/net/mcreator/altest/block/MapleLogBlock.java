@@ -33,7 +33,7 @@ public class MapleLogBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MapleLogBlock(AltestModElements instance) {
-		super(instance, 84);
+		super(instance, 83);
 	}
 
 	@Override

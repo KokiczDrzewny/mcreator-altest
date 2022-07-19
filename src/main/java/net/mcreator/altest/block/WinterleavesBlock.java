@@ -27,7 +27,7 @@ public class WinterleavesBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public WinterleavesBlock(AltestModElements instance) {
-		super(instance, 230);
+		super(instance, 243);
 	}
 
 	@Override

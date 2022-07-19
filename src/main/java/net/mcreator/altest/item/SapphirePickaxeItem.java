@@ -18,7 +18,7 @@ public class SapphirePickaxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public SapphirePickaxeItem(AltestModElements instance) {
-		super(instance, 17);
+		super(instance, 16);
 	}
 
 	@Override

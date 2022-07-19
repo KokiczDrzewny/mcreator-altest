@@ -64,7 +64,7 @@ public class AppleCrateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AppleCrateBlock(AltestModElements instance) {
-		super(instance, 182);
+		super(instance, 191);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

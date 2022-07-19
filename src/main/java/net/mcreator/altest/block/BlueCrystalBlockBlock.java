@@ -47,7 +47,7 @@ public class BlueCrystalBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public BlueCrystalBlockBlock(AltestModElements instance) {
-		super(instance, 139);
+		super(instance, 148);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

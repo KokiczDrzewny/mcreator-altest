@@ -17,7 +17,7 @@ public class DebugItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public DebugItem(AltestModElements instance) {
-		super(instance, 391);
+		super(instance, 455);
 	}
 
 	@Override

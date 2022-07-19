@@ -18,7 +18,7 @@ public class GravelPowderItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public GravelPowderItem(AltestModElements instance) {
-		super(instance, 326);
+		super(instance, 347);
 	}
 
 	@Override

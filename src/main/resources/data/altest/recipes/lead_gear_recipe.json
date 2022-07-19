@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "altest:gear_mold"
+  },
+  "addition": {
+    "item": "altest:lead_ingot"
+  },
+  "result": {
+    "item": "altest:lead_gear"
+  }
+}

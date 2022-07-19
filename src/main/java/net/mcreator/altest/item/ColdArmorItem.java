@@ -30,7 +30,7 @@ public class ColdArmorItem extends AltestModElements.ModElement {
 	public static final Item boots = null;
 
 	public ColdArmorItem(AltestModElements instance) {
-		super(instance, 62);
+		super(instance, 61);
 	}
 
 	@Override

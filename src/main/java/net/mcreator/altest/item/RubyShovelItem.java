@@ -18,7 +18,7 @@ public class RubyShovelItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public RubyShovelItem(AltestModElements instance) {
-		super(instance, 23);
+		super(instance, 22);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class EnderitePickaxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EnderitePickaxeItem(AltestModElements instance) {
-		super(instance, 33);
+		super(instance, 32);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class ColdPickaxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ColdPickaxeItem(AltestModElements instance) {
-		super(instance, 9);
+		super(instance, 8);
 	}
 
 	@Override

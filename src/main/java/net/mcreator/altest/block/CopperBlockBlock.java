@@ -27,7 +27,7 @@ public class CopperBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public CopperBlockBlock(AltestModElements instance) {
-		super(instance, 874);
+		super(instance, 119);
 	}
 
 	@Override

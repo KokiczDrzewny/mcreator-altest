@@ -18,7 +18,7 @@ public class SilverPickaxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public SilverPickaxeItem(AltestModElements instance) {
-		super(instance, 5);
+		super(instance, 4);
 	}
 
 	@Override

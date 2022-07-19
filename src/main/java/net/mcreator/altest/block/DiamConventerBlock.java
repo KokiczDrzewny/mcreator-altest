@@ -67,7 +67,7 @@ public class DiamConventerBlock extends AltestModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public DiamConventerBlock(AltestModElements instance) {
-		super(instance, 179);
+		super(instance, 188);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

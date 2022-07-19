@@ -26,7 +26,7 @@ public class OrangeWoolBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public OrangeWoolBlock(AltestModElements instance) {
-		super(instance, 126);
+		super(instance, 135);
 	}
 
 	@Override

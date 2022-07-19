@@ -27,7 +27,7 @@ public class SilverBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SilverBlockBlock(AltestModElements instance) {
-		super(instance, 98);
+		super(instance, 97);
 	}
 
 	@Override

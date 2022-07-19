@@ -49,7 +49,7 @@ public class QuartzAOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public QuartzAOreBlock(AltestModElements instance) {
-		super(instance, 94);
+		super(instance, 93);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

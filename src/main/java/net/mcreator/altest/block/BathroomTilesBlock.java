@@ -27,7 +27,7 @@ public class BathroomTilesBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public BathroomTilesBlock(AltestModElements instance) {
-		super(instance, 144);
+		super(instance, 153);
 	}
 
 	@Override

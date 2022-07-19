@@ -18,7 +18,7 @@ public class ColdShovelItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ColdShovelItem(AltestModElements instance) {
-		super(instance, 11);
+		super(instance, 10);
 	}
 
 	@Override

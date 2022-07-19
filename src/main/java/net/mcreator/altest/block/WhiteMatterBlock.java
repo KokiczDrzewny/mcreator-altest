@@ -26,7 +26,7 @@ public class WhiteMatterBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public WhiteMatterBlock(AltestModElements instance) {
-		super(instance, 889);
+		super(instance, 214);
 	}
 
 	@Override

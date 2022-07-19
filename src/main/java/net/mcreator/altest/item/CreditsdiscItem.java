@@ -18,7 +18,7 @@ public class CreditsdiscItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public CreditsdiscItem(AltestModElements instance) {
-		super(instance, 303);
+		super(instance, 326);
 	}
 
 	@Override

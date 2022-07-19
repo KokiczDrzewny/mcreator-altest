@@ -26,7 +26,7 @@ public class LimestoneBricksBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public LimestoneBricksBlock(AltestModElements instance) {
-		super(instance, 156);
+		super(instance, 165);
 	}
 
 	@Override

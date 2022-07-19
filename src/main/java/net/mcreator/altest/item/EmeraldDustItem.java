@@ -18,7 +18,7 @@ public class EmeraldDustItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EmeraldDustItem(AltestModElements instance) {
-		super(instance, 847);
+		super(instance, 370);
 	}
 
 	@Override

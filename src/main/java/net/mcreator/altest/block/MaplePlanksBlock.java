@@ -28,7 +28,7 @@ public class MaplePlanksBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MaplePlanksBlock(AltestModElements instance) {
-		super(instance, 85);
+		super(instance, 84);
 	}
 
 	@Override

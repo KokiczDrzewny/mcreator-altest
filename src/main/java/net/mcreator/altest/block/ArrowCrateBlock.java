@@ -64,7 +64,7 @@ public class ArrowCrateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public ArrowCrateBlock(AltestModElements instance) {
-		super(instance, 181);
+		super(instance, 190);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

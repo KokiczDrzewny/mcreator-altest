@@ -65,7 +65,7 @@ public class CursedBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public CursedBiome(AltestModElements instance) {
-		super(instance, 392);
+		super(instance, 456);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

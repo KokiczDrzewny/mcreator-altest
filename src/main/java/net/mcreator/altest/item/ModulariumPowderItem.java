@@ -18,7 +18,7 @@ public class ModulariumPowderItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ModulariumPowderItem(AltestModElements instance) {
-		super(instance, 323);
+		super(instance, 344);
 	}
 
 	@Override

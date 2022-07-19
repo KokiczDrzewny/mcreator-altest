@@ -18,7 +18,7 @@ public class CreativeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public CreativeItem(AltestModElements instance) {
-		super(instance, 305);
+		super(instance, 328);
 	}
 
 	@Override

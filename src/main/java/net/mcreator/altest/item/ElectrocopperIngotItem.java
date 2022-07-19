@@ -18,7 +18,7 @@ public class ElectrocopperIngotItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public ElectrocopperIngotItem(AltestModElements instance) {
-		super(instance, 886);
+		super(instance, 381);
 	}
 
 	@Override

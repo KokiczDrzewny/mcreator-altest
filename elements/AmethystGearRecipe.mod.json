@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:GearMold"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Amethyst"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AmethystGear"
+    },
+    "name": "amethyst_gear_recipe",
+    "namespace": "mod"
+  }
+}

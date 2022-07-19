@@ -46,7 +46,7 @@ public class ThinOakLogBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public ThinOakLogBlock(AltestModElements instance) {
-		super(instance, 93);
+		super(instance, 92);
 	}
 
 	@Override

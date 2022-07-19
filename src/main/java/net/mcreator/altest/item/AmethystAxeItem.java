@@ -18,7 +18,7 @@ public class AmethystAxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public AmethystAxeItem(AltestModElements instance) {
-		super(instance, 14);
+		super(instance, 13);
 	}
 
 	@Override

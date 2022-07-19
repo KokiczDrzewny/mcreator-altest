@@ -18,7 +18,7 @@ public class JadeAxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public JadeAxeItem(AltestModElements instance) {
-		super(instance, 30);
+		super(instance, 29);
 	}
 
 	@Override

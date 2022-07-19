@@ -28,7 +28,7 @@ public class MaplePressurePlateBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MaplePressurePlateBlock(AltestModElements instance) {
-		super(instance, 214);
+		super(instance, 227);
 	}
 
 	@Override

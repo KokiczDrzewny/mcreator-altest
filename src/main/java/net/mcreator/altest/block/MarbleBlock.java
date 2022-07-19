@@ -48,7 +48,7 @@ public class MarbleBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public MarbleBlock(AltestModElements instance) {
-		super(instance, 147);
+		super(instance, 156);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

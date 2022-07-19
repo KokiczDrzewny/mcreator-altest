@@ -49,7 +49,7 @@ public class TopazOreBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public TopazOreBlock(AltestModElements instance) {
-		super(instance, 105);
+		super(instance, 104);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

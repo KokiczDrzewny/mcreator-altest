@@ -18,7 +18,7 @@ public class SteelIngotItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public SteelIngotItem(AltestModElements instance) {
-		super(instance, 295);
+		super(instance, 312);
 	}
 
 	@Override

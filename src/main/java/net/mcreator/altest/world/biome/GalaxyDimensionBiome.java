@@ -38,7 +38,7 @@ public class GalaxyDimensionBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public GalaxyDimensionBiome(AltestModElements instance) {
-		super(instance, 611);
+		super(instance, 661);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

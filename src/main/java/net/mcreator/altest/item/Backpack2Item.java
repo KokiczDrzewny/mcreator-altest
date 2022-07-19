@@ -52,7 +52,7 @@ public class Backpack2Item extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public Backpack2Item(AltestModElements instance) {
-		super(instance, 793);
+		super(instance, 365);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -29,7 +29,7 @@ public class GalaxyFenceBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GalaxyFenceBlock(AltestModElements instance) {
-		super(instance, 226);
+		super(instance, 239);
 	}
 
 	@Override

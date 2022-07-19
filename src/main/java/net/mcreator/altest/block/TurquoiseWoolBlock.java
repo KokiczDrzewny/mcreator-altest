@@ -26,7 +26,7 @@ public class TurquoiseWoolBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public TurquoiseWoolBlock(AltestModElements instance) {
-		super(instance, 130);
+		super(instance, 139);
 	}
 
 	@Override

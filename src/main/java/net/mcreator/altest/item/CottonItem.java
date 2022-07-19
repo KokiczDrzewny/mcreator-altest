@@ -18,7 +18,7 @@ public class CottonItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public CottonItem(AltestModElements instance) {
-		super(instance, 318);
+		super(instance, 340);
 	}
 
 	@Override

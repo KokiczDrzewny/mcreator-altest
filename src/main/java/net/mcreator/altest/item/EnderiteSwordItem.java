@@ -18,7 +18,7 @@ public class EnderiteSwordItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public EnderiteSwordItem(AltestModElements instance) {
-		super(instance, 73);
+		super(instance, 72);
 	}
 
 	@Override

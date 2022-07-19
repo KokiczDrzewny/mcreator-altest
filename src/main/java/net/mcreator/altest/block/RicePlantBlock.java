@@ -57,7 +57,7 @@ public class RicePlantBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public RicePlantBlock(AltestModElements instance) {
-		super(instance, 233);
+		super(instance, 246);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

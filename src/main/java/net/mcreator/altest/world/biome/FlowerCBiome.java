@@ -31,7 +31,7 @@ public class FlowerCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public FlowerCBiome(AltestModElements instance) {
-		super(instance, 605);
+		super(instance, 657);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

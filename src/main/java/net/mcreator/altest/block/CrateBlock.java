@@ -67,7 +67,7 @@ public class CrateBlock extends AltestModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public CrateBlock(AltestModElements instance) {
-		super(instance, 180);
+		super(instance, 189);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

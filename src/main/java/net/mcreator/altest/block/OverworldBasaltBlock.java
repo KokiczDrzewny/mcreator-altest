@@ -48,7 +48,7 @@ public class OverworldBasaltBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public OverworldBasaltBlock(AltestModElements instance) {
-		super(instance, 193);
+		super(instance, 202);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

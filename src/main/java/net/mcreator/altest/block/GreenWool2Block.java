@@ -26,7 +26,7 @@ public class GreenWool2Block extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public GreenWool2Block(AltestModElements instance) {
-		super(instance, 129);
+		super(instance, 138);
 	}
 
 	@Override

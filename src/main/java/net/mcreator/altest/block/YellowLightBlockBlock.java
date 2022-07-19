@@ -26,7 +26,7 @@ public class YellowLightBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public YellowLightBlockBlock(AltestModElements instance) {
-		super(instance, 257);
+		super(instance, 270);
 	}
 
 	@Override

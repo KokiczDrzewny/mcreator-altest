@@ -78,7 +78,7 @@ public class ParadisedimDimension extends AltestModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public ParadisedimDimension(AltestModElements instance) {
-		super(instance, 43);
+		super(instance, 42);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

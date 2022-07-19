@@ -27,7 +27,7 @@ public class SapphireBlockBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public SapphireBlockBlock(AltestModElements instance) {
-		super(instance, 104);
+		super(instance, 103);
 	}
 
 	@Override

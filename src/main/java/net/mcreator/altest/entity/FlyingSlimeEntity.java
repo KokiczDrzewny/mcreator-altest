@@ -54,7 +54,7 @@ public class FlyingSlimeEntity extends AltestModElements.ModElement {
 			.build("flying_slime").setRegistryName("flying_slime");
 
 	public FlyingSlimeEntity(AltestModElements instance) {
-		super(instance, 315);
+		super(instance, 337);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FlyingSlimeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

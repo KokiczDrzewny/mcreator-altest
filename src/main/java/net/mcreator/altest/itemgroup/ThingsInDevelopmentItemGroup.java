@@ -13,7 +13,7 @@ import net.mcreator.altest.AltestModElements;
 @AltestModElements.ModElement.Tag
 public class ThingsInDevelopmentItemGroup extends AltestModElements.ModElement {
 	public ThingsInDevelopmentItemGroup(AltestModElements instance) {
-		super(instance, 712);
+		super(instance, 753);
 	}
 
 	@Override

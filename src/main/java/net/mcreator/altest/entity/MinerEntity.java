@@ -44,7 +44,7 @@ public class MinerEntity extends AltestModElements.ModElement {
 			.size(0.6f, 1.8f)).build("miner").setRegistryName("miner");
 
 	public MinerEntity(AltestModElements instance) {
-		super(instance, 317);
+		super(instance, 339);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MinerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

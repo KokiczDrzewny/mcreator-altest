@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "altest:nickel_block"
+    }
+  ],
+  "result": {
+    "item": "altest:nickel_ingot",
+    "count": 9
+  }
+}

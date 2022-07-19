@@ -79,7 +79,7 @@ public class AlternateDimension extends AltestModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public AlternateDimension(AltestModElements instance) {
-		super(instance, 44);
+		super(instance, 43);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

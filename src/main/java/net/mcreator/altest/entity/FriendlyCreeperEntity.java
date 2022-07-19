@@ -62,7 +62,7 @@ public class FriendlyCreeperEntity extends AltestModElements.ModElement {
 			.size(0.6f, 1.7f)).build("friendly_creeper").setRegistryName("friendly_creeper");
 
 	public FriendlyCreeperEntity(AltestModElements instance) {
-		super(instance, 314);
+		super(instance, 336);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FriendlyCreeperRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

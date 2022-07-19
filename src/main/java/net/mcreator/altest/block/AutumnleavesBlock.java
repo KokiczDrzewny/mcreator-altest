@@ -27,7 +27,7 @@ public class AutumnleavesBlock extends AltestModElements.ModElement {
 	public static final Block block = null;
 
 	public AutumnleavesBlock(AltestModElements instance) {
-		super(instance, 229);
+		super(instance, 242);
 	}
 
 	@Override

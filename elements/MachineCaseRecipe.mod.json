@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:IronGear"
+      },
+      {
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": "CUSTOM:ModulariumIngot"
       },
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": "CUSTOM:ModulariumIngot"
-      },
-      {
-        "value": "Blocks.REDSTONE_BLOCK"
-      },
-      {
-        "value": "CUSTOM:ModulariumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ElectrocopperIngot"
-      },
-      {
-        "value": ""
       }
     ],
     "recipeReturnStack": {

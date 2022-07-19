@@ -17,7 +17,7 @@ public class UltimatepickItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public UltimatepickItem(AltestModElements instance) {
-		super(instance, 41);
+		super(instance, 40);
 	}
 
 	@Override

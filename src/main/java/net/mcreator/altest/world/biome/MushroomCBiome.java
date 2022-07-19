@@ -39,7 +39,7 @@ public class MushroomCBiome extends AltestModElements.ModElement {
 	public static Biome biome;
 
 	public MushroomCBiome(AltestModElements instance) {
-		super(instance, 604);
+		super(instance, 656);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

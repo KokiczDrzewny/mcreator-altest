@@ -45,7 +45,7 @@ public class LiquidxpBlock extends AltestModElements.ModElement {
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 
 	public LiquidxpBlock(AltestModElements instance) {
-		super(instance, 313);
+		super(instance, 406);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 	}
 

@@ -18,7 +18,7 @@ public class RubyAxeItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public RubyAxeItem(AltestModElements instance) {
-		super(instance, 22);
+		super(instance, 21);
 	}
 
 	@Override

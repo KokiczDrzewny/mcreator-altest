@@ -18,7 +18,7 @@ public class IronPoweredCoalItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public IronPoweredCoalItem(AltestModElements instance) {
-		super(instance, 298);
+		super(instance, 323);
 	}
 
 	@Override

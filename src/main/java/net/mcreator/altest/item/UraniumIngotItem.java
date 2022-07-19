@@ -18,7 +18,7 @@ public class UraniumIngotItem extends AltestModElements.ModElement {
 	public static final Item block = null;
 
 	public UraniumIngotItem(AltestModElements instance) {
-		super(instance, 332);
+		super(instance, 353);
 	}
 
 	@Override

@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "altest:liquidxp",
-    "altest:liquidxp_flowing"
+    "altest:liquidxp_flowing",
+    "altest:molten_redstone",
+    "altest:molten_redstone_flowing",
+    "altest:crystalized_fluid",
+    "altest:crystalized_fluid_flowing"
   ]
 }
